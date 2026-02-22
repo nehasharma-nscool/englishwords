@@ -1,0 +1,29 @@
+[
+  {
+    "word": "Abundant",
+    "meaning": "Existing in large quantities",
+    "localMeaning": "बहुत अधिक",
+    "sentences": [
+      "Fruits are abundant in summer.",
+      "The region has abundant natural resources."
+    ]
+  },
+  {
+    "word": "Brilliant",
+    "meaning": "Extremely intelligent",
+    "localMeaning": "प्रतिभाशाली",
+    "sentences": [
+      "She is a brilliant student.",
+      "That was a brilliant idea."
+    ]
+  },
+  {
+    "word": "Courage",
+    "meaning": "Ability to face fear",
+    "localMeaning": "साहस",
+    "sentences": [
+      "He showed great courage.",
+      "It takes courage to speak the truth."
+    ]
+  }
+]
