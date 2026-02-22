@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Advanced Word Deck</title>
+<title>Premium Word Deck</title>
 
 <style>
 body{
@@ -20,25 +20,54 @@ body.dark{ background:#111; }
 
 .container{
   width:100%;
-  max-width:400px;
-  height:92vh;
+  max-width:420px;
+  height:95vh;
   position:relative;
 }
 
+/* ===== Progress ===== */
 .progress{
   position:absolute;
   top:10px;
-  width:100%;
-  text-align:center;
-  font-weight:bold;
+  left:50%;
+  transform:translateX(-50%);
+  background:rgba(0,0,0,.7);
+  color:white;
+  padding:6px 14px;
+  border-radius:20px;
+  font-size:14px;
+  z-index:10;
 }
 
-.deck{ position:relative; height:75%; }
+/* ===== Jump ===== */
+.jumpBox{
+  position:absolute;
+  top:50px;
+  left:50%;
+  transform:translateX(-50%);
+  z-index:10;
+}
+.jumpBox input{
+  width:60px;
+  padding:4px;
+  border-radius:8px;
+  border:none;
+  text-align:center;
+}
 
+/* ===== Deck ===== */
+.deck{
+  position:relative;
+  height:75%;
+  margin-top:90px;
+}
+
+/* ===== Card ===== */
 .card{
-  width:100%;
+  width:88%;
+  left:6%;
   height:100%;
-  border-radius:20px;
+  border-radius:22px;
   padding:25px;
   box-sizing:border-box;
   color:white;
@@ -48,8 +77,10 @@ body.dark{ background:#111; }
   justify-content:center;
   align-items:center;
   text-align:center;
-  box-shadow:0 15px 30px rgba(0,0,0,.3);
-  transition:transform .3s ease, opacity .3s ease;
+  box-shadow:0 20px 40px rgba(0,0,0,.3);
+  transition:transform .35s cubic-bezier(.25,.8,.25,1),
+             opacity .35s ease;
+  will-change:transform;
   touch-action:none;
 }
 
@@ -63,9 +94,10 @@ body.dark{ background:#111; }
   opacity:.8; z-index:1;
 }
 
-.word{ font-size:30px; font-weight:bold; }
-.details{ display:none; margin-top:20px; font-size:15px; }
+.word{ font-size:28px; font-weight:bold; }
+.details{ display:none; margin-top:18px; font-size:15px; }
 
+/* ===== Controls ===== */
 .controls{
   position:absolute;
   bottom:0;
@@ -86,13 +118,18 @@ button{
 
 <div class="container">
   <div class="progress" id="progress"></div>
+
+  <div class="jumpBox">
+    <input type="number" id="jumpInput" placeholder="#" min="1">
+    <button onclick="jumpTo()">Go</button>
+  </div>
+
   <div class="deck" id="deck"></div>
 
   <div class="controls">
     <button onclick="toggleFavorite()" id="favBtn">⭐</button>
     <button onclick="toggleLearned()" id="learnBtn">🎯</button>
-    <button onclick="toggleFavMode()" id="modeBtn">📊</button>
-    <button onclick="toggleShuffle()" id="shuffleBtn">🔀</button>
+    <button onclick="toggleShuffle()">🔀</button>
     <button onclick="toggleDark()">🌙</button>
   </div>
 </div>
@@ -101,21 +138,12 @@ button{
 let words=[]
 let deckOrder=[]
 let currentIndex=0
-
 let favorites=JSON.parse(localStorage.getItem("favorites"))||[]
 let learned=JSON.parse(localStorage.getItem("learned"))||[]
-let dark=localStorage.getItem("dark")==="true"
 let shuffle=false
-let favMode=false
-
-if(dark) document.body.classList.add("dark")
 
 const deck=document.getElementById("deck")
 const progress=document.getElementById("progress")
-const favBtn=document.getElementById("favBtn")
-const learnBtn=document.getElementById("learnBtn")
-const modeBtn=document.getElementById("modeBtn")
-const shuffleBtn=document.getElementById("shuffleBtn")
 
 fetch("words.json")
 .then(r=>r.json())
@@ -129,27 +157,11 @@ function randomColor(){
 }
 
 function buildDeck(){
-  let base = words.map((_,i)=>i)
-
-  if(favMode)
-    base = base.filter(i=>favorites.includes(i))
-
-  base = base.filter(i=>!learned.includes(i))
-
-  if(base.length===0){
-    progress.innerText="No words available"
-    deck.innerHTML=""
-    return
-  }
-
-  if(shuffle){
-    deckOrder=shuffleArray(base)
-  } else {
-    deckOrder=[...base]
-  }
-
+  let base=words.map((_,i)=>i)
+  base=base.filter(i=>!learned.includes(i))
+  deckOrder=shuffle?shuffleArray(base):[...base]
   currentIndex=0
-  animateReshuffle()
+  renderDeck()
 }
 
 function shuffleArray(arr){
@@ -161,28 +173,18 @@ function shuffleArray(arr){
   return a
 }
 
-function animateReshuffle(){
-  deck.style.transform="scale(.9)"
-  deck.style.opacity="0"
-  setTimeout(()=>{
-    deck.style.transform="scale(1)"
-    deck.style.opacity="1"
-    renderDeck()
-  },250)
-}
-
 function renderDeck(){
   deck.innerHTML=""
   for(let i=0;i<3;i++){
     if(currentIndex+i>=deckOrder.length) break
     let index=deckOrder[currentIndex+i]
-    let card=createCard(words[index], index)
+    let card=createCard(words[index],index)
     deck.appendChild(card)
   }
-  updateUI()
+  updateProgress()
 }
 
-function createCard(wordObj, index){
+function createCard(wordObj,index){
   let card=document.createElement("div")
   card.className="card"
   card.style.background=randomColor()
@@ -202,79 +204,93 @@ function createCard(wordObj, index){
   return card
 }
 
+/* ===== Ultra Smooth Swipe ===== */
 function addSwipe(card){
   let startX=0,currentX=0,drag=false
-  function start(x){ drag=true; startX=x }
+
+  function start(x){
+    drag=true
+    startX=x
+    card.style.transition="none"
+  }
+
   function move(x){
     if(!drag) return
     currentX=x-startX
+    let rotate=currentX/15
     card.style.transform=
-      `translateX(${currentX}px) rotate(${currentX/10}deg)`
+      `translateX(${currentX}px) rotate(${rotate}deg)`
   }
+
   function end(){
     if(!drag) return
     drag=false
-    if(currentX>120) swipeNext(card)
-    else if(currentX<-120) swipePrev(card)
-    else card.style.transform="translateX(0)"
+    card.style.transition=
+      "transform .35s cubic-bezier(.25,.8,.25,1), opacity .35s"
+
+    if(currentX>130){
+      swipeNext(card)
+    }
+    else if(currentX<-130){
+      swipePrev(card)
+    }
+    else{
+      card.style.transform="translateX(0) rotate(0)"
+    }
   }
+
   card.addEventListener("touchstart",e=>start(e.touches[0].clientX))
   card.addEventListener("touchmove",e=>move(e.touches[0].clientX))
   card.addEventListener("touchend",end)
+
   card.addEventListener("mousedown",e=>start(e.clientX))
   window.addEventListener("mousemove",e=>move(e.clientX))
   window.addEventListener("mouseup",end)
 }
 
 function swipeNext(card){
-  card.style.transform="translateX(600px) rotate(25deg)"
+  card.style.transform="translateX(600px) rotate(30deg)"
   card.style.opacity="0"
   setTimeout(()=>{
     currentIndex++
-    if(currentIndex>=deckOrder.length){
-      if(shuffle) deckOrder=shuffleArray(deckOrder)
+    if(currentIndex>=deckOrder.length)
       currentIndex=0
-    }
     renderDeck()
-  },200)
+  },300)
 }
 
 function swipePrev(card){
-  card.style.transform="translateX(-600px) rotate(-25deg)"
+  card.style.transform="translateX(-600px) rotate(-30deg)"
   card.style.opacity="0"
   setTimeout(()=>{
     currentIndex--
     if(currentIndex<0)
       currentIndex=deckOrder.length-1
     renderDeck()
-  },200)
+  },300)
 }
 
-function updateUI(){
-  if(deckOrder.length===0) return
-  let wordIndex=deckOrder[currentIndex]
+function updateProgress(){
   progress.innerText=
     `${currentIndex+1} / ${deckOrder.length}`
-
-  favBtn.innerText=
-    favorites.includes(wordIndex)?"❤️":"⭐"
-
-  learnBtn.innerText=
-    learned.includes(wordIndex)?"✅":"🎯"
-
-  modeBtn.style.background=
-    favMode?"#4CAF50":""
-  shuffleBtn.style.background=
-    shuffle?"#4CAF50":""
 }
 
+/* ===== Jump ===== */
+function jumpTo(){
+  let val=parseInt(document.getElementById("jumpInput").value)
+  if(val>=1 && val<=deckOrder.length){
+    currentIndex=val-1
+    renderDeck()
+  }
+}
+
+/* ===== Extra Controls ===== */
 function toggleFavorite(){
   let idx=deckOrder[currentIndex]
   if(favorites.includes(idx))
     favorites=favorites.filter(i=>i!==idx)
   else favorites.push(idx)
   localStorage.setItem("favorites",JSON.stringify(favorites))
-  updateUI()
 }
 
 function toggleLearned(){
@@ -291,16 +307,10 @@ function toggleShuffle(){
   buildDeck()
 }
 
-function toggleFavMode(){
-  favMode=!favMode
-  buildDeck()
-}
-
 function toggleDark(){
   document.body.classList.toggle("dark")
-  localStorage.setItem("dark",
-    document.body.classList.contains("dark"))
 }
 </script>
+
 </body>
 </html>
