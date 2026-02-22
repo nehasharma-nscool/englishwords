@@ -1,29 +1,2576 @@
 [
   {
-    "word": "Abundant",
-    "meaning": "Existing in large quantities",
-    "localMeaning": "बहुत अधिक",
-    "sentences": [
-      "Fruits are abundant in summer.",
-      "The region has abundant natural resources."
-    ]
+    "word": "Futile",
+    "meaning": "Incapable of producing any useful result; pointless.",
+    "local": "व्यर्थ",
+    "sentences": "It would be futile to protest\nTrying to please other people is largely a futile activity."
   },
   {
-    "word": "Brilliant",
-    "meaning": "Extremely intelligent",
-    "localMeaning": "प्रतिभाशाली",
-    "sentences": [
-      "She is a brilliant student.",
-      "That was a brilliant idea."
-    ]
+    "word": "Paradigm",
+    "meaning": "a typical example or pattern of something; a pattern or model.",
+    "local": "मिसाल,उदाहरण",
+    "sentences": "This episode may serve as a paradigm.\n The war was a paradigm of the evil and destructive side of human nature."
   },
   {
-    "word": "Courage",
-    "meaning": "Ability to face fear",
-    "localMeaning": "साहस",
-    "sentences": [
-      "He showed great courage.",
-      "It takes courage to speak the truth."
-    ]
+    "word": "Quench",
+    "meaning": "satisfy (one's thirst) by drinking.",
+    "local": "बुझाना,दबाना,ठंडा करना",
+    "sentences": "Wine in the bottle does not quench thirst.\nThe firemen were unable to quench the fire."
+  },
+  {
+    "word": "Glimpse",
+    "meaning": "a momentary or partial view.",
+    "local": "झलक",
+    "sentences": "I caught a glimpse of our new neighbor."
+  },
+  {
+    "word": "fleeting",
+    "meaning": "lasting for a very short time.",
+    "local": "क्षणभंगुर",
+    "sentences": "Life is short and time is fleeting."
+  },
+  {
+    "word": "Concur",
+    "meaning": "be of the same opinion; agree.",
+    "local": "सहमत होना",
+    "sentences": "I strongly concur with that idea"
+  },
+  {
+    "word": "Clumsy",
+    "meaning": "awkward in movement or in handling things. done awkwardly or without skill. difficult to handle or use; unwieldy. lacking social skills; tactless.",
+    "local": "अनाड़ी, उद्दंड",
+    "sentences": "He is clumsy with tools.\nHe is so clumsy that he cant even push the small cart ahead."
+  },
+  {
+    "word": "Empathy",
+    "meaning": "the ability to understand and share the feelings of another.",
+    "local": "सहानुभूति",
+    "sentences": " She had great empathy with people."
+  },
+  {
+    "word": "Compassion",
+    "meaning": "sympathetic pity and concern for the sufferings or misfortunes of others.",
+    "local": "दया, तरस",
+    "sentences": "I was hoping she might show a little compassion."
+  },
+  {
+    "word": "Imbibe",
+    "meaning": "absorb or assimilate (ideas or knowledge).",
+    "local": "पी लेना",
+    "sentences": "These plants imbibe moisture through their roots."
+  },
+  {
+    "word": "Contingency",
+    "meaning": "a future event or circumstance which is possible but cannot be predicted with certainty. a provision for a possible event or circumstance.",
+    "local": "સંભવિત ઘટના",
+    "sentences": "Have you made any contingency plans?\nA fire in our warehouse was a contingency that we had not expected."
+  },
+  {
+    "word": "Altogether",
+    "meaning": "completely; totally.",
+    "local": "कुल मिलाकर",
+    "sentences": "I stopped seeing her altogether\nAltogether there were 38 people in the bus."
+  },
+  {
+    "word": "Strangle",
+    "meaning": "squeeze or constrict the neck of (a person or animal), especially so as to cause death. hamper or hinder the development or activity of.",
+    "local": "दबाना, गला घोंटना",
+    "sentences": "He tried to strangle a border policeman and steal his gun."
+  },
+  {
+    "word": "Spectator",
+    "meaning": "a  person who watches at a show, game, or other event.",
+    "local": "दर्शक",
+    "sentences": " A spectator threw the ball back to the players."
+  },
+  {
+    "word": "Rebellion",
+    "meaning": "an act of armed resistance to an established government or leader.",
+    "local": "विद्रोह, विप्लव",
+    "sentences": "Oppression provoked the people to rebellion.\nthe new government quickly suppressed the rebellion."
+  },
+  {
+    "word": "Stifle",
+    "meaning": "make (someone) unable to breathe properly; suffocate. restrain (a reaction) or stop oneself acting on (an emotion).",
+    "local": "गला घोंटकर मारना",
+    "sentences": "She managed to stifle a yawn."
+  },
+  {
+    "word": "rigorous",
+    "meaning": "extremely thorough and careful. strictly applied or adhered to.",
+    "local": "कठिन, सख्त,कठोर",
+    "sentences": "The planes have to undergo rigorous safety checks.\nThe ship is still in rigorous quarantine."
+  },
+  {
+    "word": "Mimic",
+    "meaning": "imitate (someone or their actions or words), especially in order to entertain or ridicule.",
+    "local": "नकल या अनुकरण करनेवाला",
+    "sentences": "He could mimic all the teachers accents."
+  },
+  {
+    "word": "Eradicate",
+    "meaning": "destroy completely; put an end to.",
+    "local": "जड़ से उखाड़ना, पूर्ण रूप से नाश करना",
+    "sentences": "We can eradicate this disease from the world.\nWe are determined to eradicate racism from our sport."
+  },
+  {
+    "word": "Vigilantes",
+    "meaning": "1. a member of a self-appointed group of citizens who undertake law enforcement in their community without legal authority, typically because the legal agencies are thought to be inadequate.",
+    "local": "निगरानी रखने वालों, તકેદારી",
+    "sentences": "The vigilantes dragged the men out of the vehicles."
+  },
+  {
+    "word": "Bounty",
+    "meaning": "a sum paid for killing or capturing a person or animal. a sum paid by the state to encourage trade.",
+    "local": "બક્ષિસ",
+    "sentences": "They paid a $ 5 bounty for dogs.\nA bounty of $10 000 has been offered for the capture of his murderer."
+  },
+  {
+    "word": "Abolished",
+    "meaning": "formally put an end to ",
+    "local": "समाप्त करना",
+    "sentences": "Some MPs want to abolish the tax altogether."
+  },
+  {
+    "word": "Repercussion",
+    "meaning": "an unintended consequence of an event or action, especially an unwelcome one.",
+    "local": "प्रतिक्रिया",
+    "sentences": "What repercussions will the war have on the economy?\nAny decrease in tourism could have serious repercussions for the local economy."
+  },
+  {
+    "word": "Laborious",
+    "meaning": "requiring considerable time and effort.",
+    "local": "श्रमसाध्य, परिश्रमी",
+    "sentences": "Collecting the raw materials proved a long and laborious task."
+  },
+  {
+    "word": "Drowsy",
+    "meaning": "sleepy and lethargic; half asleep.",
+    "local": "सुस्त",
+    "sentences": "I feel drowsy after lunch every day.\nId just woken up and was still drowsy."
+  },
+  {
+    "word": "cherish",
+    "meaning": "protect and care for (someone) lovingly.",
+    "local": "पोषण करना",
+    "sentences": "I will cherish all tne memories of us together!"
+  },
+  {
+    "word": "Spelndid",
+    "meaning": "magnificent; very impressive. excellent; very good.",
+    "local": "शानदार",
+    "sentences": "The fireworks looked very splendid against the dark sky."
+  },
+  {
+    "word": "Disruption",
+    "meaning": "disturbance or problems which interrupt an event, activity, or process. radical change to an existing industry or market due to technological innovation.",
+    "local": "विघटन, विच्छेद",
+    "sentences": "Strikes are causing severe disruption to all train services."
+  },
+  {
+    "word": "Welfare",
+    "meaning": "the health, happiness, and fortunes of a person or group.",
+    "local": "कल्याण",
+    "sentences": "Our only concern is the childrens welfare."
+  },
+  {
+    "word": "Cultivate",
+    "meaning": "prepare and use (land) for crops or gardening. raise or grow (plants), especially on a large scale for commercial purposes.",
+    "local": "विकसित करना",
+    "sentences": "The land was too rocky to cultivate."
+  },
+  {
+    "word": "Lame",
+    "meaning": "(especially of an animal) unable to walk without difficulty as the result of an injury or illness affecting the leg or foot.  uninspiring and dull.",
+    "local": "लंगड़ा, असन्तोषजनक",
+    "sentences": "He is lame in the right leg.\nShe gave some lame excuse about missing the bus."
+  },
+  {
+    "word": "Mediocre",
+    "meaning": "of only average quality; not very good.",
+    "local": "औसत दर्जे का, साधारण",
+    "sentences": "His films are mediocre."
+  },
+  {
+    "word": "Self Reliant",
+    "meaning": "dependent on someone or something.",
+    "local": "निर्भर",
+    "sentences": "The hostel is heavily reliant upon charity."
+  },
+  {
+    "word": "Embrace",
+    "meaning": "hold (someone) closely in one's arms, especially as a sign of affection.",
+    "local": "अंगीकार करना, आलिंगन",
+    "sentences": " I just want a warm embrace and nothing more.\nShe saw them embrace on the station platform."
+  },
+  {
+    "word": "Brink",
+    "meaning": "the extreme edge of land before a steep slope or a body or water.",
+    "local": "कगार",
+    "sentences": "The tree grew on the brink of the cliff.\nThe company is on the brink of bankruptcy."
+  },
+  {
+    "word": "Famine",
+    "meaning": "extreme scarcity of food.",
+    "local": "सूखा, अकाल",
+    "sentences": "More die by food than by famine"
+  },
+  {
+    "word": "Compel",
+    "meaning": "force or oblige (someone) to do something. force to come or go in a particular direction.",
+    "local": "मजबूर, विवश करना",
+    "sentences": "The law will compel employers to provide health insurance."
+  },
+  {
+    "word": "Sheer",
+    "meaning": "nothing other than; unmitigated (used for emphasis).",
+    "local": "बिलकुल, सिर्फ, केवल",
+    "sentences": "It was sheer luck that we met like that."
+  },
+  {
+    "word": "Adulterated",
+    "meaning": "render (something) poorer in quality by adding another substance.",
+    "local": "मिलावटी",
+    "sentences": "The food had been adulterated to increase its weight."
+  },
+  {
+    "word": "Diligence",
+    "meaning": "careful and persistent work or effort.",
+    "local": "लगन, उध्यम",
+    "sentences": "Care and diligence bring luck.\nDiligence is the mother of success."
+  },
+  {
+    "word": "Incredible",
+    "meaning": "impossible to believe. difficult to believe; extraordinary.",
+    "local": "अविश्वसनीय",
+    "sentences": "The view is just incredible."
+  },
+  {
+    "word": "Humongous",
+    "meaning": "huge; enormous.",
+    "local": "विशालकाय",
+    "sentences": "They have a humongous dog.\nAn active galaxy is a star system with a humongous black hole at its centre."
+  },
+  {
+    "word": "Catastrophe",
+    "meaning": "an event causing great and usually sudden damage or suffering; a disaster.",
+    "local": "तबाही, दुर्घटना, बरबादी",
+    "sentences": "These policies could lead the country to environmental catastrophe."
+  },
+  {
+    "word": "Delight",
+    "meaning": "please (someone) greatly. take great pleasure in.",
+    "local": "आनंद, मज़ा",
+    "sentences": "The kids were screaming with delight."
+  },
+  {
+    "word": "Behold",
+    "meaning": "see or observe (someone or something, especially of remarkable or impressive nature).",
+    "local": "अवलोकन करना, ध्यानपूर्वक देखना",
+    "sentences": "We got up early to behold the sunrise.\nBehold, the new king is crowned."
+  },
+  {
+    "word": "squeal",
+    "meaning": "a long, high-pitched cry or noise.",
+    "local": "चीखना",
+    "sentences": "I heard a girl squeal in that room."
+  },
+  {
+    "word": "Curb",
+    "meaning": "a check or restraint on something. ",
+    "local": "नियंत्रण, प्रतिबंध",
+    "sentences": "She put a curb on her spending."
+  },
+  {
+    "word": "Conditioning",
+    "meaning": "the process of training or accustoming a person or animal to behave in a certain way or to accept certain circumstances.",
+    "local": "ट्रैनिंग",
+    "sentences": "Social conditioning makes crying more difficult for men."
+  },
+  {
+    "word": "peculiar",
+    "meaning": "different to what is normal or expected; strange. ",
+    "local": "अजीब, विशेष",
+    "sentences": "the wine has a peculiar taste."
+  },
+  {
+    "word": "Meteoric",
+    "meaning": "relating to meteors or meteorites.",
+    "local": "तेजोमय",
+    "sentences": "The company has experienced meteoric growth."
+  },
+  {
+    "word": "Linger",
+    "meaning": "stay in a place longer than necessary because of a reluctance to leave. spend a long time over (something).",
+    "local": "दीर्घ काल तक रहना",
+    "sentences": "Unfortunately the tax will linger on until April."
+  },
+  {
+    "word": "Outweigh",
+    "meaning": "be heavier, greater, or more significant than.",
+    "local": "से अधिक भारी होना",
+    "sentences": "The benefits outweigh the risks."
+  },
+  {
+    "word": "Persuade",
+    "meaning": "induce (someone) to do something through reasoning or argument.",
+    "local": "राज़ी करना, मनाना, फुसलाना",
+    "sentences": "I failed in my attempt to persuade her. Try to persuade him to come."
+  },
+  {
+    "word": "Canopy",
+    "meaning": "a projection or shelter that resembles a roof. an ornamental cloth covering hung or held up over something, especially a throne or bed.",
+    "local": "शामियाना, मंडप",
+    "sentences": "There was a waterproof canopy over the platform."
+  },
+  {
+    "word": "Retreat",
+    "meaning": "withdraw from enemy forces as a result of their superior power or after a defeat. move back or withdraw. move (a piece) back from a forward or threatened position on the board.",
+    "local": "पीछे हटना, आश्रय, शरण",
+    "sentences": " A brave retreat is a brave exploit.\nThe enemy was / were forced to retreat."
+  },
+  {
+    "word": "Wage a war",
+    "meaning": "Wage a war",
+    "local": "युद्ध छेड़ो",
+    "sentences": "They decided to wage a war of attrition rather than to rely on an all - out attack."
+  },
+  {
+    "word": "Throne",
+    "meaning": "a ceremonial chair for a sovereign, bishop, or similar figure.",
+    "local": "सिंहासन, राज-गद्दी",
+    "sentences": " Edward renounced his claim to the French throne."
+  },
+  {
+    "word": "Anticipate",
+    "meaning": "regard as probable; expect or predict. guess or be aware of (what will happen) and take action in order to be prepared.",
+    "local": "आशा, पहले से सोच रखना",
+    "sentences": "Mum tried to anticipate all my needs.\nWe dont anticipate any trouble."
+  },
+  {
+    "word": "Pierce",
+    "meaning": "of a sharp pointed object) go into or through (something). make (a hole) with a sharp instrument.make an opening in or bore a tunnel through.",
+    "local": "प्रवेश करना, घुसाना, छेदना",
+    "sentences": "A word is no arrow, but it can pierce the heart. "
+  },
+  {
+    "word": "Terrane",
+    "meaning": "1. a fault-bounded area or region with a distinctive stratigraphy, structure, and geological history.",
+    "local": "भूभाग",
+    "sentences": "The sliding plate brought forth a series of terranes from thousands of miles to the south."
+  },
+  {
+    "word": "Heroic",
+    "meaning": "having the characteristics of a hero or heroine; admirably brave or determined.",
+    "local": "बहादुर, वीर",
+    "sentences": "Rescuers made heroic efforts to save the crew."
+  },
+  {
+    "word": "Ferocity",
+    "meaning": "the state or quality of being ferocious. savagely fierce, cruel, or violent.",
+    "local": ", भयंकरता, क्रूरता",
+    "sentences": "The lion attacked its victim with great ferocity.\nDetectives were shocked by the ferocity of the attack."
+  },
+  {
+    "word": "Profusely",
+    "meaning": "to a great degree; in large amounts.",
+    "local": "विपुलता से, अतिव्यय से",
+    "sentences": "Water was jetting profusely from the pipe."
+  },
+  {
+    "word": "Astonish",
+    "meaning": "surprise or impress (someone) greatly.",
+    "local": "चकित, अचम्भे में डालना",
+    "sentences": "The new houses have been built with astonishing speed.\nI was astonished that he was not an Englishman."
+  },
+  {
+    "word": "Bloodshed",
+    "meaning": "the killing or wounding of people, typically on a large scale during a conflict.",
+    "local": "रक्तपात",
+    "sentences": "This election result could well lead to further bloodshed.\nThere was a lot of bloodshed during the war."
+  },
+  {
+    "word": "Hideout",
+    "meaning": "a hiding place, especially one used by someone who has broken the law.",
+    "local": "शरण, पनाह",
+    "sentences": "The police tracked the criminal to his hideout.\nThe hideout is clearly visible from the air."
+  },
+  {
+    "word": "Warfar",
+    "meaning": "Warfar",
+    "local": "युद्ध, लड़ाई, जंग",
+    "sentences": "Mobility is very important in guerrilla warfare."
+  },
+  {
+    "word": "Contenders",
+    "meaning": "a person or group competing with others to achieve something.",
+    "local": "दावेदार, प्रतियोगी",
+    "sentences": "The three leading contenders were locked in a dogfight."
+  },
+  {
+    "word": "Exploit",
+    "meaning": "make full use of and derive benefit from (a resource). make use of (a situation) in a way considered unfair or underhand.",
+    "local": "शोषण, अनुचित लाभ उठाना",
+    "sentences": "Many countries exploit oil under the sea.\nShe was keen to exploit her discovery commercially."
+  },
+  {
+    "word": "Maneuvers",
+    "meaning": "a movement or series of moves requiring skill and care. a carefully planned or cunning scheme or action.",
+    "local": "दाव-पेंच, युद्धाभ्यास",
+    "sentences": "They tried by diplomatic maneuvers to obtain an agreement.\nThe military maneuvers are a clear violation of the treaty."
+  },
+  {
+    "word": "Forestall",
+    "meaning": "prevent or obstruct (an anticipated event or action) by taking advance action.",
+    "local": "अनुमान करना, पहिले से ग्रहण करना",
+    "sentences": "We must act now to forestall disaster.\nthey will present their resignations to forestall a vote of no confidence"
+  },
+  {
+    "word": "Dickens",
+    "meaning": "You Little dickens",
+    "local": "शैतान",
+    "sentences": "You Little dickens"
+  },
+  {
+    "word": "Generosity",
+    "meaning": "the quality of being kind and generous.",
+    "local": "उदारता, सज्जनता",
+    "sentences": "We adore them for their generosity."
+  },
+  {
+    "word": "Indulge",
+    "meaning": "allow oneself to enjoy the pleasure of. allow (someone) to enjoy something desired.",
+    "local": "लिप्त होना, तृप्त करना. प्रसन्न करना",
+    "sentences": "I never indulge children with plenty of pocket money.\nShe has never been one to indulge in gossip."
+  },
+  {
+    "word": "Abide",
+    "meaning": "accept or act in accordance with (a rule, decision, or recommendation). be unable to tolerate (someone or something).",
+    "local": "पालन करना, दृढ़ रहना",
+    "sentences": "You must abide by what you have said.\nI cant abide her."
+  },
+  {
+    "word": "Legacy",
+    "meaning": "an amount of money or property left to someone in a will. something left or handed down by a predecessor.",
+    "local": "विरासत, ",
+    "sentences": "Hes gambled away all his fathers legacy.\nHe received a large legacy from his uncle."
+  },
+  {
+    "word": "Substantial",
+    "meaning": "of considerable importance, size, or worth. concerning the essentials of something.",
+    "local": "पर्याप्त, संतोषजनक, वास्तविक",
+    "sentences": "Substantial numbers of people support the reforms."
+  },
+  {
+    "word": "Narrative",
+    "meaning": "a spoken or written account of connected events; a story.",
+    "local": "कथा, लंबी कहानी",
+    "sentences": " He was a writer of great narrative power.\nIn narrative, the reporting verb is in the past tense."
+  },
+  {
+    "word": "Brag",
+    "meaning": "say something in a boastful manner.",
+    "local": "डींग मारने का, शेख़ी",
+    "sentences": "He doesnt like to brag."
+  },
+  {
+    "word": "boastful",
+    "meaning": "showing excessive pride and self-satisfaction in one's achievements, possessions, or abilities.",
+    "local": "डींग मारने का",
+    "sentences": "forgive me if this sounds boastful"
+  },
+  {
+    "word": "Radical",
+    "meaning": "especially of change or action) relating to or affecting the fundamental nature of something; far-reaching or thorough.",
+    "local": "उग्र, આમૂલ, મૂલગત",
+    "sentences": "Radical left-wing parties gained control of local authorities.\nHe was known as a radical reformer/thinker/politician."
+  },
+  {
+    "word": "Obsessive",
+    "meaning": "of the nature of an obsession.",
+    "local": "जुनूनी",
+    "sentences": "Williams is obsessive about motor racing."
+  },
+  {
+    "word": "Chord",
+    "meaning": "Chord",
+    "local": "तार",
+    "sentences": "This is a chord of a circle."
+  },
+  {
+    "word": "Falter",
+    "meaning": "lose strength or momentum. speak hesitantly.",
+    "local": "लड़खड़ाना, डगमगाना, हकलाना",
+    "sentences": "The economy is beginning to falter.\nHis voice began to falter."
+  },
+  {
+    "word": "Embodiment",
+    "meaning": "a tangible or visible form of an idea, quality, or feeling.",
+    "local": " કોઈ બાબતનું પ્રતિનિધિત્વ કરનારી બાબત",
+    "sentences": "A baby is the embodiment of vulnerability.\nHe is the embodiment of the young successful businessman."
+  },
+  {
+    "word": "Perception",
+    "meaning": "the ability to see, hear, or become aware of something through the senses.",
+    "local": "દ્રષ્ટિ, સમજ",
+    "sentences": "My perception of the problem is quite different."
+  },
+  {
+    "word": "Outperform",
+    "meaning": "perform better than. be more profitable than",
+    "local": "मात करना",
+    "sentences": "Stocks generally outperform other investments."
+  },
+  {
+    "word": "Overshadow",
+    "meaning": "tower above and cast a shadow over, appear more prominent or important than.",
+    "local": "छाया में रखना, रक्षा देना",
+    "sentences": "Large oak trees overshadow the garden.\nHer interest in politics began to overshadow her desire to be a poet."
+  },
+  {
+    "word": "Legislation",
+    "meaning": "laws, considered collectively. the process of making or enacting laws.",
+    "local": "क़ानून, विधान",
+    "sentences": "The legislation has a fundamental weakness."
+  },
+  {
+    "word": "Amendment",
+    "meaning": "a minor change or addition designed to improve a text, piece of legislation, etc.",
+    "local": "सुधार",
+    "sentences": "A major amendment was introduced into the legislation.\nThe amendment will remove the inconsistency between the two laws."
+  },
+  {
+    "word": "Cartel",
+    "meaning": "an association of manufacturers or suppliers with the purpose of maintaining prices at a high level and restricting competition.",
+    "local": "उत्पादक संघ",
+    "sentences": "A journalist managed to infiltrate the powerful drug cartel."
+  },
+  {
+    "word": "infiltrate",
+    "meaning": "enter or gain access to (an organization, place, etc.) surreptitiously and gradually, especially in order to acquire secret information.",
+    "local": "ઘૂસણખોરી",
+    "sentences": "A journalist managed to infiltrate the powerful drug cartel."
+  },
+  {
+    "word": "Levy",
+    "meaning": "impose (a tax, fee, or fine).",
+    "local": "कर लगाना",
+    "sentences": "They imposed a 5% levy on alcohol."
+  },
+  {
+    "word": "Deem",
+    "meaning": "regard or consider in a specified way.",
+    "local": "અભિપ્રાય બાંધવો, मान लेना, समझना",
+    "sentences": "We deem very highly of his administrative talent.\nDont you deem that it is your duty to help?"
+  },
+  {
+    "word": "Abundance",
+    "meaning": "a very large quantity of something. a bid by which a player undertakes to make nine or more tricks.",
+    "local": "विपुलता, प्रचुरता",
+    "sentences": "The abundance of money ruins youth"
+  },
+  {
+    "word": "Mason",
+    "meaning": "a person skilled in cutting, dressing, and laying stone in buildings.",
+    "local": "मकान बनाने वाला",
+    "sentences": "Mason went home for a couple of hours kip."
+  },
+  {
+    "word": "Exorbitant",
+    "meaning": "(of a price or amount charged) unreasonably high.",
+    "local": "हद से अधिक, अतिशय",
+    "sentences": "The bill for dinner was exorbitant."
+  },
+  {
+    "word": "Sown",
+    "meaning": "plant (seed) by scattering it on or in the earth. disseminate or introduce (something undesirable).",
+    "local": "बोया",
+    "sentences": "Reap as (or what) one has sown."
+  },
+  {
+    "word": "timid",
+    "meaning": "showing a lack of courage or confidence; easily frightened.",
+    "local": "आसानी से डरनेवाला",
+    "sentences": "Timid dogs bark most."
+  },
+  {
+    "word": "Insightful",
+    "meaning": "having or showing an accurate and deep understanding; perceptive.",
+    "local": "સમજદાર,व्यावहारिक",
+    "sentences": "thank you for all the insightful comments"
+  },
+  {
+    "word": "Dwell",
+    "meaning": "live in or at a specified place.",
+    "local": "रहना",
+    "sentences": "groups of people still dwell in these caves"
+  },
+  {
+    "word": "pelt stone",
+    "meaning": "pelt stone",
+    "local": "पथराव",
+    "sentences": "पथराव"
+  },
+  {
+    "word": "ponder",
+    "meaning": "think about (something) carefully, especially before making a decision or reaching a conclusion.",
+    "local": "विचार करना",
+    "sentences": "I pondered the question of what clothes to wear for the occasion\nWe intend to ponder all the alternatives before acting."
+  },
+  {
+    "word": "articulate",
+    "meaning": "having or showing the ability to speak fluently and coherently, pronounce (something) clearly and distinctly. express (an idea or feeling) fluently and coherently.",
+    "local": "स्पष्ट, गाँठदार, સ્પષ્ટ ઉરચાર કરવો",
+    "sentences": "he articulated each word with precision.\nthey were unable to articulate their emotions\nA baby cannot use articulate speech.\nShe struggled to articulate her thoughts."
+  },
+  {
+    "word": "faucet",
+    "meaning": "faucet",
+    "local": "पानी की कल",
+    "sentences": "The faucet has developed a drip."
+  },
+  {
+    "word": "quilt",
+    "meaning": "quilt",
+    "local": "रजाई",
+    "sentences": "He picked apart an old quilt."
+  },
+  {
+    "word": "profound",
+    "meaning": "very great or intense, having or showing great knowledge or insight",
+    "local": "गहरा, अगाध",
+    "sentences": "a profound philosopher"
+  },
+  {
+    "word": "distaste",
+    "meaning": "mild dislike or aversion.",
+    "local": "अरुचि, घृणा",
+    "sentences": "Harry nurtured a distaste for all things athletic"
+  },
+  {
+    "word": "deceit",
+    "meaning": "the action or practice of deceiving someone by concealing or misrepresenting the truth.",
+    "local": "छल",
+    "sentences": "She won her promotion by deceit."
+  },
+  {
+    "word": "uproar",
+    "meaning": "a loud and impassioned noise or disturbance, a public expression of protest or outrage",
+    "local": "शोरगुल, हुल्लड़, ધાંધલ",
+    "sentences": "The announcement caused uproar in the crowd.\nThe meeting ended in uproar."
+  },
+  {
+    "word": "regarded",
+    "meaning": "consider or think of in a specified way",
+    "local": "माना",
+    "sentences": "she regarded London as her base"
+  },
+  {
+    "word": "gaze",
+    "meaning": "look steadily and intently, especially in admiration, surprise, or thought.",
+    "local": "एकटक देखना",
+    "sentences": "he could only gaze at her in astonishment"
+  },
+  {
+    "word": "overstate",
+    "meaning": "state too strongly; exaggerate",
+    "local": "बढ़ा-चढ़ाकर कहना",
+    "sentences": "I overstated my case to make my point"
+  },
+  {
+    "word": "drown",
+    "meaning": "die through submersion in and inhalation of water.",
+    "local": "ડૂબીને મરી જવું",
+    "sentences": "a motorist drowned when her car plunged off the edge of a quay"
+  },
+  {
+    "word": "plunge",
+    "meaning": "jump or dive quickly and energetically. fall suddenly and uncontrollably.",
+    "local": "ભૂસકો, डुबकी",
+    "sentences": "a car swerved to avoid a bus and plunged into a ravine"
+  },
+  {
+    "word": "asylum",
+    "meaning": "the protection granted by a state to someone who has left their home country as a political refugee.",
+    "local": "शरण, आश्रयस्थान",
+    "sentences": "she applied for asylum and was granted refugee status"
+  },
+  {
+    "word": "persecution",
+    "meaning": "hostility and ill-treatment, especially because of race or political or religious beliefs; oppression",
+    "local": "उत्पीड़न, अत्याचार",
+    "sentences": "her family fled religious persecution"
+  },
+  {
+    "word": "forge",
+    "meaning": "make or shape (a metal object) by heating it in a fire or furnace and hammering it. produce a fraudulent copy or imitation of (a document, signature, banknote, or work of art).",
+    "local": "बनाना, लुहारखाना, भट्ठी",
+    "sentences": "To forge a blade takes great skill, \nThe Prime Minister is determined to forge a good relationship with Americas new leader."
+  },
+  {
+    "word": "thrive",
+    "meaning": "grow or develop well or vigorously",
+    "local": "फलना-फूलना, कामयाब होना",
+    "sentences": "the new baby thrived, education groups thrive on organization\nToday his company continues to thrive."
+  },
+  {
+    "word": "influx",
+    "meaning": "an arrival or entry of large numbers of people or things. an inflow of water into a river, lake, or the sea.",
+    "local": "वेगपूर्ण प्रवेश, अंतःप्रवेश",
+    "sentences": "a massive influx of tourists, \nthe lakes are fed by influxes of meltwater"
+  },
+  {
+    "word": "legit",
+    "meaning": "conforming to the rules; legal.",
+    "local": "कानूनी",
+    "sentences": "is this car legit"
+  },
+  {
+    "word": "untangled",
+    "meaning": "free from a tangled or twisted state.",
+    "local": "सुलझाना",
+    "sentences": "fishermen untangled their nets"
+  },
+  {
+    "word": "diaphanous",
+    "meaning": "a diaphanous dress of pale gold",
+    "local": "आर-पार दिखलानेवाला",
+    "sentences": " She was wearing a dress of diaphanous silk."
+  },
+  {
+    "word": "mustache",
+    "meaning": "mustache",
+    "local": "मूंछ",
+    "sentences": "His father shaved off his mustache."
+  },
+  {
+    "word": "intimidate",
+    "meaning": "frighten or overawe (someone), especially in order to make them do what one wants.",
+    "local": "भयभीत करना",
+    "sentences": "the forts are designed to intimidate the population\nThe gang tried to intimidate the bank manager."
+  },
+  {
+    "word": "nerd",
+    "meaning": "a foolish or contemptible person who lacks social skills or is boringly studious. engage in or discuss a technical field obsessively or with great attention to detail.",
+    "local": "बेवकूफ",
+    "sentences": "I was a serious nerd until I discovered girls and cars"
+  },
+  {
+    "word": "exert",
+    "meaning": "apply or bring to bear (a force, influence, or quality). make a physical or mental effort",
+    "local": "बल लगाना",
+    "sentences": "the moon exerts a force on the Earth\nhe needs to exert himself to try to find an answer"
+  },
+  {
+    "word": "relinquish",
+    "meaning": "voluntarily cease to keep or claim; give up.",
+    "local": "त्यागना",
+    "sentences": "he relinquished his managerial role to become chief executive"
+  },
+  {
+    "word": "transgression",
+    "meaning": "an act that goes against a law, rule, or code of conduct; an offence.",
+    "local": "उल्लंघन, भंग",
+    "sentences": "Ill be keeping an eye out for further transgressions\n How blessed is he whose transgression is forgiven, Whose sin is covered!"
+  },
+  {
+    "word": "lunatic",
+    "meaning": "a person who is mentally ill (not in technical use).",
+    "local": "पागल मनुष्य",
+    "sentences": "this lunatic just accelerated out from the side of the road"
+  },
+  {
+    "word": "dupe",
+    "meaning": "deceive; trick.",
+    "local": "धोखा दे",
+    "sentences": "the newspaper was duped into publishing an untrue story"
+  },
+  {
+    "word": "shovel",
+    "meaning": "a tool resembling a spade with a broad blade and typically upturned sides, used for moving coal, earth, snow, or other material.",
+    "local": "खोदक मशीन",
+    "sentences": "an area of turf had been dug up by vandals using a pick and shovel"
+  },
+  {
+    "word": "shelve",
+    "meaning": "place or arrange (items, especially books) on a shelf.",
+    "local": "फिर से रखना",
+    "sentences": "we had catalogued and shelved all the books shipped in that day"
+  },
+  {
+    "word": "decapitate",
+    "meaning": "(of a person or animal) having had the head cut off.",
+    "local": "सिर काटना",
+    "sentences": "His decapitated body was found floating in a canal.\nSome people were decapitated during the French Revolution"
+  },
+  {
+    "word": "ruffle",
+    "meaning": "disorder or disarrange (someone's hair), typically by running one's hands through it.",
+    "local": "",
+    "sentences": "the father laughs and jovially ruffles his sons hair"
+  },
+  {
+    "word": "sterile",
+    "meaning": "free from bacteria or other living microorganisms; totally clean. not able to produce children or young.",
+    "local": "जीवाणुरहित",
+    "sentences": "the disease had made him sterile\na sterile needle and syringes"
+  },
+  {
+    "word": "rage",
+    "meaning": "violent uncontrollable anger.,a vehement desire or passion",
+    "local": "ग़ुस्सा, तीव्रता, क्रोध होना",
+    "sentences": "office rage is on the increase"
+  },
+  {
+    "word": "outrage",
+    "meaning": "an extremely strong reaction of anger, shock, or indignation.",
+    "local": "આક્રોશ",
+    "sentences": "her voice trembled with outrage"
+  },
+  {
+    "word": "Wrath",
+    "meaning": "extreme anger",
+    "local": "कोप",
+    "sentences": "A soft answer turned away wrath"
+  },
+  {
+    "word": "furious",
+    "meaning": "extremely angry.",
+    "local": "ક્રોધાયમાન",
+    "sentences": "he was furious when he learned about it"
+  },
+  {
+    "word": "knock your socks off",
+    "meaning": "amaze or impress someone.",
+    "local": "તમારા મોજાં કાઢી નાખો",
+    "sentences": "this dish will knock your socks off!"
+  },
+  {
+    "word": "rustling noise",
+    "meaning": "make a soft, muffled crackling sound like that caused by the movement of dry leaves or paper.",
+    "local": "सरसराहट का शोर",
+    "sentences": "she came closer, her skirt swaying and rustling"
+  },
+  {
+    "word": "bravo",
+    "meaning": "used to express approval when a performer or other person has done something well.",
+    "local": "वाहवाही",
+    "sentences": "bravo, youre improving!"
+  },
+  {
+    "word": "shabby",
+    "meaning": "in poor condition through long use or lack of care.",
+    "local": "जर्जर, दरिद्र, जीर्ण-शीर्ण, मैले कुचेले कपड़े पहने हुए\n",
+    "sentences": "a shabby fellow in slippers and an undershirt\na conscript in a shabby uniform saluted the car"
+  },
+  {
+    "word": "repent",
+    "meaning": "feel or express sincere regret or remorse about one's wrong doing or sin.",
+    "local": "पश्चाताप करना, प्रायश्चित्त करना",
+    "sentences": "the Padre urged his listeners to repent"
+  },
+  {
+    "word": "droll",
+    "meaning": "curious or unusual in a way that provokes dry amusement.",
+    "local": "हंसी उड़ाना",
+    "sentences": "There was a droll, cynical expression on his face."
+  },
+  {
+    "word": "gallop",
+    "meaning": "the fastest pace of a horse or other quadruped, with all the feet off the ground together in each stride.",
+    "local": "घोड़े की सरपट चाल",
+    "sentences": "the horse broke into a furious gallop"
+  },
+  {
+    "word": "indebted",
+    "meaning": "owing money. owing gratitude for a service or favour.",
+    "local": "ऋणी",
+    "sentences": "I am indebted to her for her help in indexing my book"
+  },
+  {
+    "word": "roguery",
+    "meaning": "conduct characteristic of a rogue, especially acts of dishonesty or playful mischief.",
+    "local": "धूर्तता, धोखेबाजी",
+    "sentences": "there has always been roguery associated with horse dealing"
+  },
+  {
+    "word": "beseech",
+    "meaning": "ask (someone) urgently and fervently to do something; implore; entreat.",
+    "local": "प्रार्थना करना",
+    "sentences": "I beseech you to forgive me.\nSpare him, I beseech you."
+  },
+  {
+    "word": "stammer",
+    "meaning": "speak with sudden involuntary pauses and a tendency to repeat the initial letters of words.",
+    "local": "अस्फुट वाणी से बोलना",
+    "sentences": "he turned red and started stammering"
+  },
+  {
+    "word": "detonate",
+    "meaning": "explode or cause to explode.",
+    "local": "વિસ્ફોટ",
+    "sentences": "two other bombs failed to detonate"
+  },
+  {
+    "word": "coup",
+    "meaning": "a sudden, violent, and illegal seizure of power from a government.\nan instance of successfully achieving something difficult.",
+    "local": "तख्तापलट,आकस्मिक राज्य परिवर्तन",
+    "sentences": "he was overthrown in an army coup\nit was a major coup to get such a prestigious contract"
+  },
+  {
+    "word": "invade",
+    "meaning": "(of an armed force) enter (a country or region) so as to subjugate or occupy it",
+    "local": "पर आक्रमण, चढ़ाई करना",
+    "sentences": "during the Second World War the island was invaded by the Axis powers"
+  },
+  {
+    "word": "ingrain",
+    "meaning": "firmly fix or establish (a habit, belief, or attitude) in a person.",
+    "local": "जड़ पकड़ लिया, चित्त में बैठा देना, મનમાં ઉતારવું",
+    "sentences": " Such ingrained prejudices cannot be corrected easily"
+  },
+  {
+    "word": "enact",
+    "meaning": "make (a bill or other proposal) law. put into practice (an idea or suggestion).",
+    "local": "કાયદો ઘડવો, અધિનિયમ કરવો",
+    "sentences": "legislation was enacted to attract international companies"
+  },
+  {
+    "word": "evade",
+    "meaning": "escape or avoid (someone or something), especially by guile or trickery.",
+    "local": "ટાળવું,છટકવું,बच निकालना",
+    "sentences": "The released criminal always tries to evade the police."
+  },
+  {
+    "word": "reclamation",
+    "meaning": "the process of claiming something back or of reasserting a right.",
+    "local": "सुधार, भूमि-सुधार",
+    "sentences": "We should encourage reclamation and recycling."
+  },
+  {
+    "word": "elite",
+    "meaning": "a select group that is superior in terms of ability or qualities to the rest of a group or society.",
+    "local": "समाज का उत्कृष्ट भाग",
+    "sentences": "the elite of Britains armed forces"
+  },
+  {
+    "word": "altercation",
+    "meaning": "a noisy argument or disagreement, especially in public",
+    "local": "तकरार,विवाद",
+    "sentences": "I had an altercation with the ticket collector"
+  },
+  {
+    "word": "tussle",
+    "meaning": "a vigorous struggle or scuffle, typically in order to obtain or achieve something.",
+    "local": "खींचतान,संघर्ष",
+    "sentences": "there was a tussle for the ball"
+  },
+  {
+    "word": "punk",
+    "meaning": "a worthless person (often used as a general term of abuse).",
+    "local": "गुंडा,बदमाश",
+    "sentences": "you think any of these punks they got fighting today could stand up to Joe Louis?"
+  },
+  {
+    "word": "reassert",
+    "meaning": "reassert",
+    "local": "साबित करना,पुष्टि करना",
+    "sentences": "he moved quickly to reassert his control"
+  },
+  {
+    "word": "graze",
+    "meaning": " eat grass in a field.",
+    "local": "ઘાસચારો",
+    "sentences": "cattle graze on the open meadows"
+  },
+  {
+    "word": "perish",
+    "meaning": "die, especially in a violent or sudden way",
+    "local": "नष्ट हो जाना, मरना",
+    "sentences": "a great part of his army perished of hunger and disease"
+  },
+  {
+    "word": "stellar",
+    "meaning": "exceptionally good; outstanding.",
+    "local": "प्रसिद्ध, मशहूर",
+    "sentences": "his restaurant has received stellar ratings in the guides"
+  },
+  {
+    "word": "Reef",
+    "meaning": "a ridge of jagged rock, coral, or sand just above or below the surface of the sea.",
+    "local": "પાણીની સપાટીએ આવેલા ખડકની કરાડ, રેતી ઇ. ખરાબો",
+    "sentences": ""
+  },
+  {
+    "word": "prickle",
+    "meaning": "a small thorn.",
+    "local": "કાંટા",
+    "sentences": "the prickles of the gorse bushes"
+  },
+  {
+    "word": "resilience",
+    "meaning": "the capacity to recover quickly from difficulties; toughness.",
+    "local": "लौटाव,સ્થિતિસ્થાપકતા, लचीलाता",
+    "sentences": "the often remarkable resilience of so many British institutions\nHer natural resilience helped her overcome the crisis."
+  },
+  {
+    "word": "expel",
+    "meaning": "officially make (someone) leave a school or other organization.",
+    "local": "निष्कासित करना, खदेड़ना",
+    "sentences": "she was expelled from school"
+  },
+  {
+    "word": "procession",
+    "meaning": "a number of people or vehicles moving forward in an orderly fashion, especially as part of a ceremony.",
+    "local": "શોભાયાત્રા, સરઘસ",
+    "sentences": "The procession passed along the street."
+  },
+  {
+    "word": "swarm",
+    "meaning": "(of flying insects) move in or form a swarm.,\nmove somewhere in large numbers.",
+    "local": "झुंड, भीड़",
+    "sentences": "A swarm of ants are moving busily.\nA swarm of mosquitoes fly into the room."
+  },
+  {
+    "word": "vicious",
+    "meaning": "deliberately cruel or violent. \nwild and dangerous to people.",
+    "local": "शातिर,दोषपूर्ण",
+    "sentences": "the dog was vicious and likely to bite"
+  },
+  {
+    "word": "unveils",
+    "meaning": "show or announce publicly for the first time",
+    "local": "અનાવરણ",
+    "sentences": "the Home Secretary has unveiled plans to crack down on crime"
+  },
+  {
+    "word": "engross",
+    "meaning": "absorb all the attention or interest of.\ngain or keep exclusive possession of (something).",
+    "local": "સમગ્ર ધ્યાન પરોવે તેમ કરવું",
+    "sentences": "they seemed to be engrossed in conversation\nEngrossed in his book he forgot the time.\nthe country had made the best of its position to engross trade"
+  },
+  {
+    "word": "flock",
+    "meaning": "a number of birds of one kind feeding, resting, or travelling together",
+    "local": "झुण्ड, पक्षी का झूण्ड",
+    "sentences": "Birds of a feather flock together.\nEagles fly alone, but sheep flock together."
+  },
+  {
+    "word": "halve",
+    "meaning": "divide into two parts of equal or roughly equal size.",
+    "local": "आधा करना, आधा आधा बांटना",
+    "sentences": "In any case, we could halve the benefit.\nHalve the tomatoes, then cut them up coarsely."
+  },
+  {
+    "word": "outmaneuvered",
+    "meaning": "evade (an opponent) by moving faster or with greater agility.\nuse skill and cunning to gain an advantage over.",
+    "local": "तेजी से या अधिक चपलता के साथ भागना (एक प्रतिद्वंद्वी)।",
+    "sentences": "the YF-22 can outmanoeuvre any fighter flying today\nhe hoped he would be able to outmanoeuvre his critics\n"
+  },
+  {
+    "word": "seldom",
+    "meaning": "not often; rarely.",
+    "local": "कभी कभी,कदाचित",
+    "sentences": "Islay is seldom visited by tourists"
+  },
+  {
+    "word": "pod",
+    "meaning": "a small herd or school of marine animals, especially whales.",
+    "local": "झुण्ड",
+    "sentences": "a pod of 500 dolphins frolicking in the bay"
+  },
+  {
+    "word": "ambush",
+    "meaning": "a surprise attack by people lying in wait in a concealed position.",
+    "local": "घात लगाना, घात",
+    "sentences": "seven members of a patrol were killed in an ambush"
+  },
+  {
+    "word": "straggle",
+    "meaning": "move along slowly so as to remain some distance behind the person or people in front.",
+    "local": "बिछुड़ जाने वाला, अलग हो जाने वाला",
+    "sentences": "the children straggled behind them"
+  },
+  {
+    "word": "creep",
+    "meaning": "move slowly and carefully in order to avoid being heard or noticed.",
+    "local": "पेट के बल खिसकना, धीरे धीरे चलना",
+    "sentences": "he crept downstairs, hardly making any noise"
+  },
+  {
+    "word": "haul",
+    "meaning": "pull or drag with effort or force.",
+    "local": "घसीटा, ખેંચવું",
+    "sentences": "he hauled his bike out of the shed"
+  },
+  {
+    "word": "enrich",
+    "meaning": "improve or enhance the quality or value of.",
+    "local": ", संपन्न बनाना, समृद्ध बनाना",
+    "sentences": "Add fertilizer to enrich the soil.\nMusic can certainly enrich your whole life"
+  },
+  {
+    "word": "bellow",
+    "meaning": "shout something with a deep loud roar.",
+    "local": "चीख, गर्जन",
+    "sentences": "he bellowed out the order"
+  },
+  {
+    "word": "mists",
+    "meaning": "a cloud of tiny water droplets suspended in the atmosphere at or near the earth's surface that limits visibility",
+    "local": "धुंध, कुहरा",
+    "sentences": "the peaks were shrouded in mist"
+  },
+  {
+    "word": "shroud",
+    "meaning": "a protective casing or cover\na thing that envelops or obscures something.",
+    "local": "ढांकना, छिपाना, आवरण",
+    "sentences": "a shroud of mist"
+  },
+  {
+    "word": "sparse",
+    "meaning": "thinly dispersed or scattered.",
+    "local": "कम घना, कम फैला हुआ, છૂટાછવાયા",
+    "sentences": "areas of sparse population"
+  },
+  {
+    "word": "verge",
+    "meaning": "an edge or border.\nan extreme limit beyond which something specified will happen.",
+    "local": "ધાર,किनारा, हद",
+    "sentences": "they came down to the verge of the lake\nI was on the verge of tears"
+  },
+  {
+    "word": "resonate",
+    "meaning": "produce or be filled with a deep, full, reverberating sound.",
+    "local": "પડઘો પાડવો",
+    "sentences": "the sound of the siren resonated across the harbour"
+  },
+  {
+    "word": "scar",
+    "meaning": "a mark left on the skin or within body tissue where a wound, burn, or sore has not healed",
+    "local": "ડાઘ, ઘાની નિશાની",
+    "sentences": "a faint scar ran the length of his left cheek"
+  },
+  {
+    "word": "litter",
+    "meaning": "rubbish such as paper, cans, and bottles left lying in an open or public place.",
+    "local": ", कूड़े, भूसे का ढेर",
+    "sentences": "always clear up after a picnic and never drop litter"
+  },
+  {
+    "word": "bloom",
+    "meaning": "a flower, especially one cultivated for its beauty",
+    "local": "फूल का खिलना",
+    "sentences": "an exotic bloom"
+  },
+  {
+    "word": "exotic",
+    "meaning": "originating in or characteristic of a distant foreign country.\nattractive or striking because colourful or out of the ordinary.",
+    "local": "विदेशी, अनोखा, अजीब",
+    "sentences": "exotic birds\nyouths with exotic haircuts"
+  },
+  {
+    "word": "coalition",
+    "meaning": "a temporary alliance for combined action, especially of political parties forming a government.",
+    "local": "गठबंधन, बहुदलीय",
+    "sentences": "a coalition between Liberals and Conservatives"
+  },
+  {
+    "word": "sprint",
+    "meaning": "run at full speed over a short distance",
+    "local": "पूरे वेग से दौड़ना",
+    "sentences": "I saw Charlie sprinting through the traffic towards me"
+  },
+  {
+    "word": "captivity",
+    "meaning": "the condition of being imprisoned or confined.",
+    "local": "क़ैद, कारावास",
+    "sentences": "he was released after 865 days in captivity"
+  },
+  {
+    "word": "conceal",
+    "meaning": "not allow to be seen; hide.",
+    "local": "छिपाना, ढकना",
+    "sentences": "a line of sand dunes concealed the distant sea"
+  },
+  {
+    "word": "distant",
+    "meaning": "far away in space or time.",
+    "local": "दूर, दूर का",
+    "sentences": "distant parts of the world"
+  },
+  {
+    "word": "ransacks",
+    "meaning": "go through (a place) stealing things and causing damage",
+    "local": "तोड़फोड़, लूटना",
+    "sentences": "burglars ransacked her home"
+  },
+  {
+    "word": "reparation",
+    "meaning": "the action of making amends for a wrong one has done, by providing payment or other assistance to those who have been wronged.",
+    "local": "मरम्मत, हानिपूर्ति",
+    "sentences": "the courts required a convicted offender to make financial reparation to his victim"
+  },
+  {
+    "word": "sturdy",
+    "meaning": "(of a person or their body) strongly and solidly built.",
+    "local": "तगड़ा, अंगवाला",
+    "sentences": "he had a sturdy, muscular physique"
+  },
+  {
+    "word": "covert",
+    "meaning": "not openly acknowledged or displayed.",
+    "local": "અપ્રગટ, ગુપ્ત",
+    "sentences": "covert operations against the dictatorship"
+  },
+  {
+    "word": "claws",
+    "meaning": "a curved pointed horny nail on each digit of the foot in birds, lizards, and some mammals.",
+    "local": "પંજા",
+    "sentences": "The lion is known by his claws \nThat cat will scratch you with its claws."
+  },
+  {
+    "word": "agility",
+    "meaning": "ability to move quickly and easily.",
+    "local": "ચપળતા",
+    "sentences": "though he was without formal training as dancer or athlete, his physical agility was inexhaustible"
+  },
+  {
+    "word": "dapple",
+    "meaning": "mark with spots or rounded patches.",
+    "local": "चितकबरा",
+    "sentences": "The floor was dappled with pale moonlight."
+  },
+  {
+    "word": "nocturnal",
+    "meaning": "done, occurring, or active at night.",
+    "local": "रात्रि संबंधी",
+    "sentences": "most owls are nocturnal"
+  },
+  {
+    "word": "diurnal",
+    "meaning": "of or during the day.",
+    "local": "दिनचर",
+    "sentences": "Unlike most other bats, this species is diurnal.\nKangaroos are diurnal animals."
+  },
+  {
+    "word": "doze",
+    "meaning": "sleep lightly.",
+    "local": "झपकी लेना",
+    "sentences": "I dozed off for a few seconds"
+  },
+  {
+    "word": "sluggish",
+    "meaning": "slow-moving or inactive.",
+    "local": "सुस्त, निष्क्रिय",
+    "sentences": "A heavy lunch makes me sluggish in the afternoon."
+  },
+  {
+    "word": "gorge",
+    "meaning": "eat a large amount greedily; fill oneself with food.",
+    "local": "लालची की तरह खाना",
+    "sentences": "they gorged themselves on Cornish cream teas"
+  },
+  {
+    "word": "Solitary",
+    "meaning": "done or existing alone.",
+    "local": "अकेला, एकान्त",
+    "sentences": "I live a pretty solitary life"
+  },
+  {
+    "word": "longevity",
+    "meaning": "long life.",
+    "local": "लंबी उम्र, दीर्घायु",
+    "sentences": "I wish you longevity and health."
+  },
+  {
+    "word": "affinity",
+    "meaning": "a natural liking for and understanding of someone or something.",
+    "local": "સમાનતા, સામ્ય, मेल",
+    "sentences": "he had a special affinity with horses\nThere is close affinity between Italian and Spanish."
+  },
+  {
+    "word": "scuffle",
+    "meaning": "a short, confused fight or struggle at close quarters.",
+    "local": "हाथापाई",
+    "sentences": "The two men quarrelled and there was a scuffle"
+  },
+  {
+    "word": "lethal",
+    "meaning": "sufficient to cause death.",
+    "local": "जानलेवा",
+    "sentences": "a lethal cocktail of drink and pills"
+  },
+  {
+    "word": "sprawl",
+    "meaning": "sit, lie, or fall with one's arms and legs spread out in an ungainly way.",
+    "local": "भद्दे ढंग से हाथ पाँव फैलाना, बेतुके ढंग से पसरना",
+    "sentences": " The town seemed to sprawl for miles."
+  },
+  {
+    "word": "shook up",
+    "meaning": "emotionally or physically disturbed; upset.",
+    "local": "હચમચી ગયો",
+    "sentences": "she looks pretty shook up from the letter"
+  },
+  {
+    "word": "avenue",
+    "meaning": "a broad road in a town or city, typically having trees at regular intervals along its sides.\na way of approaching a problem or making progress towards something.",
+    "local": "માર્ગો",
+    "sentences": "three possible avenues of research suggested themselves"
+  },
+  {
+    "word": "ill-treat",
+    "meaning": "act cruelly towards (a person or animal).",
+    "local": "ગેરવર્તન, દુ:ખ દેવું",
+    "sentences": "her mother had ill-treated her when she was young"
+  },
+  {
+    "word": "conducive",
+    "meaning": "making a certain situation or outcome likely or possible.",
+    "local": "अनुकूल, सहायक, कारणभूत",
+    "sentences": "the harsh lights and cameras were hardly conducive to a relaxed atmosphere.\nThis is a more conducive atmosphere for studying.\nDaylight is highly conducive to good plant growth."
+  },
+  {
+    "word": "respite",
+    "meaning": "a short period of rest or relief from something difficult or unpleasant.",
+    "local": "राहत, विराम",
+    "sentences": "the refugee encampments will provide some respite from the suffering\nWe worked for hours without respite.\nThe tablets brought temporary respite from the excruciating pain."
+  },
+  {
+    "word": "commotion",
+    "meaning": "a state of confused and noisy disturbance.",
+    "local": "હંગામો, ખળભળાટ",
+    "sentences": "she was distracted by a commotion across the street"
+  },
+  {
+    "word": "munch",
+    "meaning": "eat (something) steadily and often audibly",
+    "local": "વાગોળવું",
+    "sentences": "We watched her munch through two packets of peanuts."
+  },
+  {
+    "word": "head out",
+    "meaning": "to leave or depart",
+    "local": "बाहर निकलना",
+    "sentences": "The turtle poked its head out of its shell.\nDont stretch your head out"
+  },
+  {
+    "word": "prodigy",
+    "meaning": "a young person with exceptional qualities or abilities.",
+    "local": "विलक्षण गुण-संपन्न मनुष्य",
+    "sentences": "a Russian pianist who was a child prodigy in his day"
+  },
+  {
+    "word": "lunge, ing",
+    "meaning": "make a sudden forward thrust with (a part of the body or a weapon).",
+    "local": "झपट्टा मारना",
+    "sentences": "Billy lunged his spear at the fish"
+  },
+  {
+    "word": "pounce",
+    "meaning": "spring or swoop suddenly so as to catch prey.",
+    "local": "ના ઉપર અચાનક ઝડપ મારવી અથવા ઓચિંતું તૂટી પડવું",
+    "sentences": "The cat sat in the tree ready to pounce on the ducks below."
+  },
+  {
+    "word": "apparently",
+    "meaning": "as far as one knows or can see",
+    "local": "जाहिरा तौर पर",
+    "sentences": "Apparently, you have done a lot of work."
+  },
+  {
+    "word": "stiff",
+    "meaning": "not easily bent or changed in shape; rigid\nsevere or strong.\nfull of.\nhaving a specified unpleasant feeling to an extreme extent.",
+    "local": "मुश्किल, कठिन, सख़्त",
+    "sentences": "a stiff black collar\nthey face stiff fines and a possible jail sentence\nthe place is stiff with alarm systems\nshe was scared stiff"
+  },
+  {
+    "word": "contrarian",
+    "meaning": "a person who opposes or rejects popular opinion, especially in stock exchange dealing.",
+    "local": "વિરોધી",
+    "sentences": "it has become fashionable to be a stock-market contrarian\nopposing or rejecting popular opinion or current practice."
+  },
+  {
+    "word": "conviction",
+    "meaning": "a formal declaration by the verdict of a jury or the decision of a judge in a court of law that someone is guilty of a criminal offence.",
+    "local": "दोषसिद्धि, धारणा, दृढ विश्वास",
+    "sentences": "she had a previous conviction for a similar offence"
+  },
+  {
+    "word": "wanderlust",
+    "meaning": "a strong desire to travel.",
+    "local": "सफ़र का अनुराग, ભટકવાની લાલસા",
+    "sentences": "a man consumed by wanderlust"
+  },
+  {
+    "word": "primitive",
+    "meaning": "very basic or unsophisticated in terms of comfort, convenience, or efficiency.",
+    "local": "प्राथमिक",
+    "sentences": "the accommodation at the camp was a bit primitive"
+  },
+  {
+    "word": "herculean",
+    "meaning": "requiring great strength or effort.\nmuscular and strong.",
+    "local": "અગાધ બળવાળું",
+    "sentences": "a Herculean task. the mesomorph, a classic Herculean build"
+  },
+  {
+    "word": "penalise",
+    "meaning": "subject to a penalty or punishment.",
+    "local": "दंड देना",
+    "sentences": "high-spending councils will be penalized"
+  },
+  {
+    "word": "Vividly",
+    "meaning": "in a way that produces powerful feelings or strong, clear images in the mind.",
+    "local": "આબેહૂબ, स्पष्टपणे",
+    "sentences": "Margaret remembers vividly the day she received the grim news"
+  },
+  {
+    "word": "lackluster",
+    "meaning": "lacking in vitality, force, or conviction; uninspired or uninspiring.",
+    "local": "मंद, भावशून्य, निस्तेज",
+    "sentences": "no excuses were made for the teams lacklustre performance"
+  },
+  {
+    "word": "dorm",
+    "meaning": "a dormitory.",
+    "local": "छात्रावास",
+    "sentences": "a dormitory."
+  },
+  {
+    "word": "tidy",
+    "meaning": "arranged neatly and in order.",
+    "local": "साफ, स्वच्छ",
+    "sentences": "keep my room neat and tidy"
+  },
+  {
+    "word": "imposter",
+    "meaning": "a person who pretends to be someone else in order to deceive others, especially for fraudulent gain.",
+    "local": "छली, कपटी, पाखण्डी",
+    "sentences": "We discovered him to be an imposter."
+  },
+  {
+    "word": "wisdom",
+    "meaning": "the quality of having experience, knowledge, and good judgement; the quality of being wise.",
+    "local": "बुद्धिमत्ता,बुद्धि",
+    "sentences": "Without wisdom wealth is worthless."
+  },
+  {
+    "word": "compel",
+    "meaning": "force or oblige (someone) to do something.",
+    "local": "मजबूर, दबाव डालना",
+    "sentences": "a sense of duty compelled Harry to answer her questions"
+  },
+  {
+    "word": "cognitive",
+    "meaning": "relating to cognition.",
+    "local": "संज्ञानात्मक",
+    "sentences": "the cognitive processes involved in reading"
+  },
+  {
+    "word": "endure",
+    "meaning": "suffer (something painful or difficult) patiently.",
+    "local": "सहना, भोगना, टिकना",
+    "sentences": "it seemed impossible that anyone could endure such pain"
+  },
+  {
+    "word": "mediocrity",
+    "meaning": "the quality or state of being mediocre.",
+    "local": "सामान्यता, સરેરાશ કક્ષાનું",
+    "sentences": "the team suddenly came good after years of mediocrity"
+  },
+  {
+    "word": "relentless",
+    "meaning": "unceasingly intense.",
+    "local": "અવિરત, સતત",
+    "sentences": "the relentless heat of the desert"
+  },
+  {
+    "word": "conversely",
+    "meaning": "introducing a statement or idea which reverses one that has just been made or referred to.",
+    "local": "इसके विपरीत, उल्टे",
+    "sentences": "Conversely, you might say that it is ridiculous."
+  },
+  {
+    "word": "enormous",
+    "meaning": "very large in size, quantity, or extent.",
+    "local": "विशाल, बहुत बड़ा",
+    "sentences": "enormous sums of money"
+  },
+  {
+    "word": "clutter",
+    "meaning": "cover or fill (something) with an untidy collection of things.",
+    "local": "વેરવિખેર કે અસ્તવ્યસ્ત સ્થિતિ",
+    "sentences": "the room was cluttered with his bric-a-brac"
+  },
+  {
+    "word": "ally",
+    "meaning": "a state formally cooperating with another for a military or other purpose.",
+    "local": "સાથી, મિત્ર",
+    "sentences": "debate continued among NATO allies"
+  },
+  {
+    "word": "precede",
+    "meaning": "come before (something) in time.",
+    "local": "આગળ, પૂર્વવર્તી હોવું",
+    "sentences": "a gun battle had preceded the explosions"
+  },
+  {
+    "word": "erupts",
+    "meaning": "(of a volcano) become active and eject lava, ash, and gases.",
+    "local": "ફાટી નીકળે છે",
+    "sentences": "an earthquake erupts"
+  },
+  {
+    "word": "propelled",
+    "meaning": "drive or push something forwards.",
+    "local": "આગળ ધપાવવું",
+    "sentences": "the boat is propelled by using a very long paddle"
+  },
+  {
+    "word": "envision",
+    "meaning": "imagine as a future possibility; visualize.",
+    "local": "કલ્પના",
+    "sentences": "In the future we envision a federation of companies."
+  },
+  {
+    "word": "hassle",
+    "meaning": "irritating inconvenience.",
+    "local": "મુશ્કેલી",
+    "sentences": "the hassle of child care"
+  },
+  {
+    "word": "sabotage",
+    "meaning": "deliberately destroy, damage, or obstruct (something), especially for political or military advantage.",
+    "local": "તોડફોડ, ભાંગફોડ",
+    "sentences": "power lines from South Africa were sabotaged by rebel forces"
+  },
+  {
+    "word": "rational",
+    "meaning": "based on or in accordance with reason or logic.",
+    "local": "तर्कसंगत",
+    "sentences": "Im sure theres a perfectly rational explanation"
+  },
+  {
+    "word": "reinforce",
+    "meaning": "strengthen or support (an object or substance), especially with additional material.",
+    "local": "મજબૂત બનાવવું, દૃઢ કરવું",
+    "sentences": "the helmet has been reinforced with a double layer of cork"
+  },
+  {
+    "word": "scribbled",
+    "meaning": "written or drawn carelessly or hurriedly.",
+    "local": "લખેલું",
+    "sentences": "he took the clipboard and scribbled something illegible"
+  },
+  {
+    "word": "paradox",
+    "meaning": "a seemingly absurd or contradictory statement or proposition which when investigated may prove to be well founded or true.",
+    "local": "વિરોધાભાસ",
+    "sentences": "that is tha paradox of making small improvement"
+  },
+  {
+    "word": "unanimous",
+    "meaning": "(of two or more people) fully in agreement.",
+    "local": "સર્વસંમત",
+    "sentences": "you don’t need a unanimous vote to win an election"
+  },
+  {
+    "word": "incredible",
+    "meaning": "impossible to believe.",
+    "local": "અકલ્પનીય, આશ્ચર્ય પમાડે તેવું",
+    "sentences": "an almost incredible tale of triumph and tragedy"
+  },
+  {
+    "word": "pursuite",
+    "meaning": "the action of pursuing someone or something",
+    "local": "પીછો",
+    "sentences": "the cat crouched in the grass in pursuit of a bird"
+  },
+  {
+    "word": "contentment",
+    "meaning": "a state of happiness and satisfaction.",
+    "local": "સંતોષ",
+    "sentences": "eward deleiver contentment"
+  },
+  {
+    "word": "wither",
+    "meaning": "cease to flourish; fall into decay or decline.",
+    "local": "સુકાઈ જવું, કરમાવું",
+    "sentences": "bad habits wither away"
+  },
+  {
+    "word": "impending",
+    "meaning": " about to happen;",
+    "local": "તોળાઈ રહેલું, તરત બનનારું\n",
+    "sentences": "the author had returned to his country ahead of the impending war"
+  },
+  {
+    "word": "discern",
+    "meaning": "perceive or recognize (something).",
+    "local": "પારખવું",
+    "sentences": "I can discern no difference between the two policies\nshe could faintly discern the shape of a skull"
+  },
+  {
+    "word": "regarded",
+    "meaning": "consider or think of in a specified way.",
+    "local": "ગણવામાં આવે છે",
+    "sentences": "she regarded London as her base"
+  },
+  {
+    "word": "peculiar",
+    "meaning": "strange or odd; unusual.",
+    "local": "વિચિત્ર",
+    "sentences": "he gave her some very peculiar looks"
+  },
+  {
+    "word": "partake",
+    "meaning": "join in (an activity).",
+    "local": "ભાગ લેવો",
+    "sentences": "visitors can partake in golfing or clay pigeon shooting"
+  },
+  {
+    "word": "empress",
+    "meaning": "a woman who is a sovereign ruler of great power and rank, especially one ruling an empire.",
+    "local": "મહારાણી",
+    "sentences": "Queen Victoria was proclaimed Empress at Delhi in 1877"
+  },
+  {
+    "word": "elegant",
+    "meaning": "pleasingly graceful and stylish in appearance or manner.",
+    "local": "ભવ્ય, મનોહર",
+    "sentences": "she will look elegant in black"
+  },
+  {
+    "word": "ambiguity",
+    "meaning": "the quality of being open to more than one interpretation; inexactness.",
+    "local": "અસ્પષ્ટતા",
+    "sentences": "we can detect no ambiguity in this section of the Act"
+  },
+  {
+    "word": "specificity",
+    "meaning": "the quality of belonging or relating uniquely to a particular subject.",
+    "local": "વિશિષ્ટતા",
+    "sentences": "the statement of special educational needs lacked specificity"
+  },
+  {
+    "word": "whishpers",
+    "meaning": "speak very softly using one's breath without one's vocal cords, especially for the sake of privacy.",
+    "local": "બબડાટ, ધીમો સળવળ અવાજ",
+    "sentences": "Alison was whispering in his ear"
+  },
+  {
+    "word": "wary",
+    "meaning": "feeling or showing caution about possible dangers or problems.",
+    "local": "સાવચેત",
+    "sentences": "dogs that have been mistreated often remain very wary of strangers"
+  },
+  {
+    "word": "closet",
+    "meaning": "used to refer to a state of secrecy or concealment, especially about one's homosexuality.",
+    "local": "કબાટ, ઓરડી",
+    "sentences": "his brothers decision to come out of the closet"
+  },
+  {
+    "word": "subtle",
+    "meaning": " so delicate or precise as to be difficult to analyse or describe.",
+    "local": "ગૂઢ, जटिल, सूक्ष्म",
+    "sentences": "his language expresses rich and subtle meanings"
+  },
+  {
+    "word": "crisper",
+    "meaning": "a compartment at the bottom of a refrigerator for storing fruit and vegetables",
+    "local": "કડક",
+    "sentences": "The quill nib produces a crisper line as a result."
+  },
+  {
+    "word": "seldom",
+    "meaning": "not often; rarely.",
+    "local": "ભાગ્યે જ, જવલ્લે જ",
+    "sentences": "Islay is seldom visited by tourists"
+  },
+  {
+    "word": "relapsed",
+    "meaning": "(of someone suffering from a disease) suffer deterioration after a period of improvement.",
+    "local": "ફરી વળેલું",
+    "sentences": "12% patient relapsed within 3 years"
+  },
+  {
+    "word": "engulfed",
+    "meaning": "(of a natural force) sweep over (something) so as to surround or cover it completely.",
+    "local": "ઘેરાયેલું",
+    "sentences": "the cafe was engulfed in flames"
+  },
+  {
+    "word": "devoid",
+    "meaning": "entirely lacking or free from.",
+    "local": "રહિત, વંચિત",
+    "sentences": "Lisa kept her voice devoid of emotion\nA well devoid of water is useless.\nThis house is totally devoid of furniture."
+  },
+  {
+    "word": "obese",
+    "meaning": "grossly fat or overweight.",
+    "local": "મેદસ્વી",
+    "sentences": "a hugely obese young man"
+  },
+  {
+    "word": "foster",
+    "meaning": "encourage or promote the development of (something, typically something regarded as good).",
+    "local": "પાલક, ઉછેરવું\n",
+    "sentences": "the teachers task is to foster learning"
+  },
+  {
+    "word": "numb",
+    "meaning": "deprived of the power of sensation",
+    "local": "જડ, લાગણી કે હલનચલનની શક્તિવિહોણું",
+    "sentences": "the cold had numbed her senses"
+  },
+  {
+    "word": "muster",
+    "meaning": "assemble (troops), especially for inspection or in preparation for battle.",
+    "local": "એકત્ર, હાજરી પૂરવી\n",
+    "sentences": "17,000 men had been mustered on Haldon Hill"
+  },
+  {
+    "word": "peck",
+    "meaning": "(of a bird) strike or bite something with its beak.",
+    "local": "",
+    "sentences": "two geese were pecking at some grain"
+  },
+  {
+    "word": "elicit",
+    "meaning": "evoke or draw out (a response, answer, or fact) from someone in reaction to one's own actions or questions.",
+    "local": "બહાર કાઢવું, બીજા પાસેથી કઢાવવું",
+    "sentences": "I could elicit no response from him\nThe test uses pictures to elicit words from the child."
+  },
+  {
+    "word": "mannequins",
+    "meaning": "mannequins",
+    "local": "mannequins",
+    "sentences": "Other mannequins are following her lead, "
+  },
+  {
+    "word": "enticing",
+    "meaning": "attractive or tempting; alluring.",
+    "local": "મોહક, પ્રલોભક",
+    "sentences": "An enticing smell came from the kitchen."
+  },
+  {
+    "word": "innate",
+    "meaning": "inborn; natural.",
+    "local": "જન્મજાત, કુદરતી\n",
+    "sentences": "her innate capacity for organization"
+  },
+  {
+    "word": "adamant",
+    "meaning": "refusing to be persuaded or to change one's mind",
+    "local": "અડગ, મક્કમ",
+    "sentences": "he is adamant that he is not going to resign"
+  },
+  {
+    "word": "prodigies",
+    "meaning": "prodigies",
+    "local": "ઉત્કૃષ્ટ",
+    "sentences": "Prodigies of cooking were already under way in surrounding houses."
+  },
+  {
+    "word": "rarity",
+    "meaning": "the state or quality of being rare.",
+    "local": "दुर्लभ वस्तु",
+    "sentences": "Visitors were a rarity in the village."
+  },
+  {
+    "word": "maticulous",
+    "meaning": "showing great attention to detail; very careful and precise.",
+    "local": "सूक्ष्म, ઝીણવટભર્યું",
+    "sentences": "he had always been so meticulous about his appearance"
+  },
+  {
+    "word": "grueling",
+    "meaning": "extremely tiring and demanding.",
+    "local": "કર્કશ, थकानेवाला, भीषण",
+    "sentences": "a grueling schedule"
+  },
+  {
+    "word": "splurge",
+    "meaning": "an act of spending money freely or extravagantly. spend (money) freely or extravagantly.",
+    "local": "फिजूलखर्ची",
+    "sentences": "Id splurged about $2,500 on clothes\nI had a splurge and bought two new suits."
+  },
+  {
+    "word": "unbeknownst",
+    "meaning": "unbeknownst",
+    "local": "अनजान, અજાણ",
+    "sentences": "Unbeknownst to her father, she began taking dancing lessons."
+  },
+  {
+    "word": "ruse",
+    "meaning": "an action intended to deceive someone; a trick.",
+    "local": "ચાલાકી, પ્રપંચ",
+    "sentences": "Eleanor tried to think of a ruse to get Paul out of the house"
+  },
+  {
+    "word": "bewindered",
+    "meaning": "perplexed and confused; very puzzled.",
+    "local": "ચકિત, हक्का-बक्का",
+    "sentences": "he saw the bewildered look on my face"
+  },
+  {
+    "word": "agitation",
+    "meaning": "a state of anxiety or nervous excitement",
+    "local": "घबराहट, આંદોલન, ઉશ્કેરાટ, उत्तेजित करना",
+    "sentences": "she was wringing her hands in agitation,\nThe unions continue to agitate for higher pay."
+  },
+  {
+    "word": "slob",
+    "meaning": "a person who is lazy and has low standards of cleanliness.",
+    "local": "मैला, आलसी, कामचोर",
+    "sentences": "we don’t want to be slob of neighbourhood"
+  },
+  {
+    "word": "repulsed",
+    "meaning": "drive back (an attack or attacker) by force",
+    "local": "खदेड़ा हुआ",
+    "sentences": "while the other is repulsed by smell"
+  },
+  {
+    "word": "impaired",
+    "meaning": "weakened or damaged",
+    "local": "",
+    "sentences": "when emotion and feelings are impaired, we lose the ability to make decision"
+  },
+  {
+    "word": "detriment",
+    "meaning": "the state of being harmed or damaged.",
+    "local": "हानि",
+    "sentences": "he is engrossed in his work to the detriment of his married life"
+  },
+  {
+    "word": "confined",
+    "meaning": "(of a space) restricted in area or volume; cramped.",
+    "local": "सीमित",
+    "sentences": "her fear of confined spaces"
+  },
+  {
+    "word": "endurance/endure",
+    "meaning": "the ability to endure an unpleasant or difficult process or situation without giving way.",
+    "local": "सहनशीलता",
+    "sentences": "she was close to the limit of her endurance"
+  },
+  {
+    "word": "hone",
+    "meaning": "sharpen (a blade).",
+    "local": "સલ્લી પર ચડાવીને ધાર કાઢવી",
+    "sentences": "he was carefully honing the curved blade"
+  },
+  {
+    "word": "speculate",
+    "meaning": "form a theory or conjecture about a subject without firm evidence.",
+    "local": "અનુમાન",
+    "sentences": "the quality group sat arround speculating about perfection"
+  },
+  {
+    "word": "mediocre",
+    "meaning": "of only average quality; not very good.",
+    "local": "સામાન્ય, સરેરાશ કક્ષાનું",
+    "sentences": "he is an enthusiastic if mediocre painter"
+  },
+  {
+    "word": "bogged",
+    "meaning": "be or become stuck in mud or wet ground",
+    "local": "ફસાયેલ",
+    "sentences": "it is easy to get bogged down trying to find the optimal plan for change\nyou must not get bogged down in detail"
+  },
+  {
+    "word": "gravitate",
+    "meaning": "move towards or be attracted to a person or thing.",
+    "local": "ની તરફ કે બાજુ ખેંચાવું આકર્ષાવું કે હઠવું",
+    "sentences": "young western Europeans will gravitate to Berlin"
+  },
+  {
+    "word": "pare",
+    "meaning": "cut off (the outer skin) of something.",
+    "local": "",
+    "sentences": "they pare down the numbers of click to open an account"
+  },
+  {
+    "word": "hose",
+    "meaning": "a flexible tube conveying water, used chiefly for watering plants and in firefighting.",
+    "local": "નળી",
+    "sentences": "you are holding a garden hose"
+  },
+  {
+    "word": "priming",
+    "meaning": "gunpowder placed in the pan of a firearm to ignite a charge.",
+    "local": "भड़काना",
+    "sentences": "he checked the priming of his gun"
+  },
+  {
+    "word": "splendid",
+    "meaning": "magnificent; very impressive.",
+    "local": "शानदार, उत्कृष्ट,भव्य",
+    "sentences": "a splendid view of Windsor Castle"
+  },
+  {
+    "word": "decisive",
+    "meaning": "settling an issue; producing a definite result.",
+    "local": "निर्णयक",
+    "sentences": "the archers played a decisive part in the victory"
+  },
+  {
+    "word": "hassle",
+    "meaning": "irritating inconvenience",
+    "local": "परेशानी",
+    "sentences": "the hassle of child care"
+  },
+  {
+    "word": "employ",
+    "meaning": "make use of.",
+    "local": "इस्तेमाल करना, काम में लाना",
+    "sentences": "the methods they have employed to collect the data"
+  },
+  {
+    "word": "concoct",
+    "meaning": "create or devise (a story or plan).",
+    "local": "योजना बनाना",
+    "sentences": "she began to concoct a dinner likely to appeal to him"
+  },
+  {
+    "word": "spree",
+    "meaning": "a spell or sustained period of unrestrained activity of a particular kind.",
+    "local": "आनंद का उत्सव, પળોજણ",
+    "sentences": "he went on a six-month crime spree"
+  },
+  {
+    "word": "predicament",
+    "meaning": "a difficult, unpleasant, or embarrassing situation",
+    "local": "દુર્દશા",
+    "sentences": "peter mulled over his predicament"
+  },
+  {
+    "word": "mulled",
+    "meaning": "think about (a fact, proposal, or request) deeply and at length.",
+    "local": "विचार करना",
+    "sentences": "she began to mull over the various possibilities"
+  },
+  {
+    "word": "stagnant",
+    "meaning": "(of a body of water or the atmosphere of a confined space) having no current or flow and often having an unpleasant smell as a consequence.",
+    "local": "स्थिर, गतिहीन",
+    "sentences": "a stagnant economy"
+  },
+  {
+    "word": "haphazard",
+    "meaning": "lacking any obvious principle of organization.",
+    "local": "अव्यवस्थित, अस्थिर",
+    "sentences": "the music business works in a haphazard fashion\nMany residents were washing their hands in haphazard fashion"
+  },
+  {
+    "word": "lather",
+    "meaning": "a frothy white mass of bubbles produced by soap",
+    "local": "साबुन का झाग",
+    "sentences": "she rinsed off the lather and dried her hands"
+  },
+  {
+    "word": "rines",
+    "meaning": "wash (something) with clean water to remove soap",
+    "local": "ચોખ્ખા પાણીથી ધોઇ કાઢવું",
+    "sentences": "always rinse your hair thoroughly"
+  },
+  {
+    "word": "gratification",
+    "meaning": "pleasure, especially when gained from the satisfaction of a desire.",
+    "local": "પ્રસન્નતા, આનંદ, સંતોષ",
+    "sentences": "a thirst for sexual gratification"
+  },
+  {
+    "word": "deprived",
+    "meaning": "suffering a severe and damaging lack of basic material and cultural benefits.",
+    "local": "વંચિત",
+    "sentences": "the charity cares for destitute and deprived children"
+  },
+  {
+    "word": "brisk",
+    "meaning": "active and energetic.",
+    "local": "तेज",
+    "sentences": "he made brisk progress"
+  },
+  {
+    "word": "abide",
+    "meaning": "accept or act in accordance with (a rule, decision, or recommendation)",
+    "local": "पालन ​​करना",
+    "sentences": "as a socienty, we collectively agree to abide by certain rules"
+  },
+  {
+    "word": "elite",
+    "meaning": "a select group that is superior in terms of ability or qualities to the rest of a group or society.",
+    "local": "अभिजात वर्ग, समाज का उत्कृष्ट भाग",
+    "sentences": "against elite competition, phleps would be doomed from the start"
+  },
+  {
+    "word": "doomed",
+    "meaning": "condemn to certain death or destruction.",
+    "local": "વિનાશકારી",
+    "sentences": "against elite competition, phleps would be doomed from the start"
+  },
+  {
+    "word": "destined",
+    "meaning": "certain to meet (a particular fate).",
+    "local": "નિર્ધારિત, મુકરર થઈ ચૂકેલું",
+    "sentences": "the Act seems destined to failure"
+  },
+  {
+    "word": "rebellious",
+    "meaning": "showing a desire to resist authority, control, or convention.",
+    "local": "બળવાખોર",
+    "sentences": "I became very rebellious and opted out"
+  },
+  {
+    "word": "captivated",
+    "meaning": "attract and hold the interest and attention of; charm.",
+    "local": "મોહિત",
+    "sentences": "he was captivated by her beauty"
+  },
+  {
+    "word": "nudge",
+    "meaning": "prod (someone) gently with one's elbow in order to attract attention.",
+    "local": "खिसकाने",
+    "sentences": "people were nudging each other and pointing at me"
+  },
+  {
+    "word": "conundrum",
+    "meaning": "a confusing and difficult problem or question.",
+    "local": "पहेली",
+    "sentences": "one of the most difficult conundrums for the experts"
+  },
+  {
+    "word": "nuance",
+    "meaning": "characterized by subtle shades of meaning or expression.",
+    "local": "अति सूक्ष्म अंतर",
+    "sentences": "you need a more nuance approach"
+  },
+  {
+    "word": "dribble",
+    "meaning": " fall slowly in drops or a thin stream.",
+    "local": "बूँद बूँद कर टपकना",
+    "sentences": "he dribbled cream into his coffee"
+  },
+  {
+    "word": "stumble",
+    "meaning": "trip or momentarily lose one's balance; almost fall.",
+    "local": "ठोकर",
+    "sentences": "her foot caught in the rug and she stumbled"
+  },
+  {
+    "word": "cling",
+    "meaning": "hold on tightly to",
+    "local": "चिमटना, વળગી રહેવું",
+    "sentences": "the tighter we cling to identity, the harder it becomes to grow beyond it."
+  },
+  {
+    "word": "facet",
+    "meaning": "one side of something many-sided, especially of a cut gem.",
+    "local": "પાસું, पहलू",
+    "sentences": "the loss of that facet of your life will wreck you"
+  },
+  {
+    "word": "absurd",
+    "meaning": "wildly unreasonable, illogical, or inappropriate.",
+    "local": "बेतुका, વાહિયાત",
+    "sentences": "the allegations are patently absurd"
+  },
+  {
+    "word": "patently",
+    "meaning": "clearly; without doubt.",
+    "local": "સ્પષ્ટપણે",
+    "sentences": "the allegations are patentlyabsured "
+  },
+  {
+    "word": "depraved",
+    "meaning": "morally corrupt; wicked.",
+    "local": "भ्रष्ट, दुष्ट, विकृत",
+    "sentences": "he was a depraved lecher"
+  },
+  {
+    "word": "defied",
+    "meaning": "openly resist or refuse to obey. be of such a kind or nature that (a specified attitude or action) is almost impossible",
+    "local": "खारिज कर देता है, અવજ્ઞા",
+    "sentences": "his actions defy belief, a woman who defies convention"
+  },
+  {
+    "word": "insidious",
+    "meaning": "proceeding in a gradual, subtle way, but with very harmful effects.",
+    "local": "कपटी, धोखेबाज",
+    "sentences": "sexual harassment is a serious and insidious problem"
+  },
+  {
+    "word": "cripple",
+    "meaning": "cause severe and disabling damage to; deprive of the ability to function normally.",
+    "local": "अपंग, पंगु बनाना",
+    "sentences": "developing countries are crippled by their debts"
+  },
+  {
+    "word": "inane",
+    "meaning": "acking sense or meaning; silly.",
+    "local": "बेहूदा, व्यर्थ, अनर्थक",
+    "sentences": "dont badger people with inane questions"
+  },
+  {
+    "word": "cogent",
+    "meaning": "(of an argument or case) clear, logical, and convincing.",
+    "local": "ठोस, સચોટ",
+    "sentences": "they put forward cogent arguments for British membership"
+  },
+  {
+    "word": "indifferent",
+    "meaning": "neither good nor bad; mediocre.",
+    "local": "निरपेक्ष",
+    "sentences": "a pair of indifferent watercolours"
+  },
+  {
+    "word": "shrugged",
+    "meaning": "dismiss something as unimportant.",
+    "local": "सरका दिया",
+    "sentences": "the managing director shrugged off the criticism"
+  },
+  {
+    "word": "indignanat",
+    "meaning": "feeling or showing anger or annoyance at what is perceived as unfair treatment.",
+    "local": "क्रोधित",
+    "sentences": "he was indignant at being the object of suspicion"
+  },
+  {
+    "word": "berate",
+    "meaning": "scold or criticize (someone) angrily.",
+    "local": "गाली देना, ખખડાવવું",
+    "sentences": "she berated herself for being fickle"
+  },
+  {
+    "word": "invincible",
+    "meaning": "too powerful to be defeated or overcome.",
+    "local": "અજેય",
+    "sentences": "an invincible warrior"
+  },
+  {
+    "word": "delve",
+    "meaning": "reach inside a receptacle and search for something",
+    "local": "શોધવું,ખોદવું, उलट-पुलटकर ढूंढ़ना",
+    "sentences": "she delved in her pocket"
+  },
+  {
+    "word": "nonetheless",
+    "meaning": "in spite of that; nevertheless.",
+    "local": "તેમ છતાં",
+    "sentences": "it was the barest of welcomes, but it was a welcome nonetheless"
+  },
+  {
+    "word": "stub",
+    "meaning": "accidentally strike (one's toe) against something.",
+    "local": "ठूंठ",
+    "sentences": "I stubbed my toe, swore, and tripped"
+  },
+  {
+    "word": "bestow",
+    "meaning": "confer or present (an honour, right, or gift).",
+    "local": "प्रदान करना",
+    "sentences": "the office was bestowed on him by the monarch of this realm"
+  },
+  {
+    "word": "repression",
+    "meaning": "the action of subduing someone or something by force.",
+    "local": "दमन, दबाव, ",
+    "sentences": "students sparked off events that ended in brutal repression"
+  },
+  {
+    "word": "fruition",
+    "meaning": "the realization or fulfilment of a plan or project.",
+    "local": "सुखानुभव, सफलता, सफलता, ઇચ્છિત પરિણામ",
+    "sentences": "the plans have come to fruition rather sooner than expected"
+  },
+  {
+    "word": "succumb",
+    "meaning": "fail to resist pressure, temptation, or some other negative force.",
+    "local": "मृत्यु को प्राप्त होना, मान जाना",
+    "sentences": "we cannot merely give up and succumb to despair"
+  },
+  {
+    "word": "rattle",
+    "meaning": " move or travel with a knocking sound.",
+    "local": "ખડખડાટ",
+    "sentences": "trains rattled past at frequent intervals"
+  },
+  {
+    "word": "delusional",
+    "meaning": "typically as a symptom of mental disorder.",
+    "local": "भ्रम का शिकार हो",
+    "sentences": "the delusion of being watched"
+  },
+  {
+    "word": "finagle",
+    "meaning": "obtain by dishonest or devious means.",
+    "local": "ફિનાગલ",
+    "sentences": "finagling loan from someone"
+  },
+  {
+    "word": "mundane",
+    "meaning": "of this earthly world rather than a heavenly or spiritual one",
+    "local": "સાંસારિક",
+    "sentences": "Be willing to do even mundane tasks.\nI found the job very mundane.\nInitially, the work was pretty mundane."
+  },
+  {
+    "word": "congregation",
+    "meaning": "a group of people assembled for religious worship.",
+    "local": "મંડળ, ધર્મસમાજ કે મેદની",
+    "sentences": "he was a member of the Emmanuel Chapel congregation"
+  },
+  {
+    "word": "entitle",
+    "meaning": "believing oneself to be inherently deserving of privileges or special treatment.",
+    "local": "હકદાર, હકદાર બનાવવું",
+    "sentences": "kids who feel so entitled and think the world will revolve around them\nemployees are normally entitled to redundancy pay"
+  },
+  {
+    "word": "impervious",
+    "meaning": "not allowing fluid to pass through",
+    "local": "અભેદ્ય",
+    "sentences": "an impervious layer of basaltic clay"
+  },
+  {
+    "word": "stern",
+    "meaning": "strict and severe, putting someone or something under extreme pressure.",
+    "local": "કડક",
+    "sentences": "he looks me at sternly"
+  },
+  {
+    "word": "meeker",
+    "meaning": "quiet, gentle, and easily imposed on; submissive.",
+    "local": "નમ્ર",
+    "sentences": "the word sounding far meeker than I would like"
+  },
+  {
+    "word": "flustered",
+    "meaning": "make (someone) agitated or confused.",
+    "local": "મૂંઝવણ કે ગૂંચવણમાં નાંખવું",
+    "sentences": "having fond nothing, he seems flustered"
+  },
+  {
+    "word": "resentment",
+    "meaning": "bitter indignation at having been treated unfairly.",
+    "local": "રોષ",
+    "sentences": "angry and full off resentment"
+  },
+  {
+    "word": "imparted",
+    "meaning": "make (information) known",
+    "local": "देना, बताना",
+    "sentences": "imparted some of their problem to me"
+  },
+  {
+    "word": "humdrum",
+    "meaning": "lacking excitement or variety; boringly monotonous.",
+    "local": "नीरस",
+    "sentences": "yet vast majority of life reside in the humdrum middle"
+  },
+  {
+    "word": "pervasive",
+    "meaning": "(especially of an unwelcome influence or physical effect) spreading widely throughout an area or a group of people",
+    "local": "प्रसरणशीलता",
+    "sentences": "the problem is that the pervasiveness of technology and marketing"
+  },
+  {
+    "word": "inundation",
+    "meaning": "an overwhelming abundance of people or things.",
+    "local": "सैलाब, જળબંબાકાર",
+    "sentences": "an inundation of rugby fans"
+  },
+  {
+    "word": "oppress",
+    "meaning": "keep (someone) in subjection and hardship, especially by the unjust exercise of authority.",
+    "local": "જુલમ, દમન કરવું",
+    "sentences": "the most oppressed, the most victimized"
+  },
+  {
+    "word": "unerring",
+    "meaning": "always right or accurate.",
+    "local": "अचूक",
+    "sentences": "unerring belief"
+  },
+  {
+    "word": "potent",
+    "meaning": "having great power, influence, or effect.",
+    "local": "शक्तिशाली",
+    "sentences": "thrones were potent symbols of authority"
+  },
+  {
+    "word": "hitchhiking",
+    "meaning": "travel by getting free lifts in passing vehicles.",
+    "local": "लिफ्ट ले",
+    "sentences": "we hitch-hiked up to Scotland"
+  },
+  {
+    "word": "reconnaissance",
+    "meaning": "military observation of a region to locate an enemy or ascertain strategic features.",
+    "local": "सैनिक परीक्षण",
+    "sentences": "an excellent aircraft for low-level reconnaissance"
+  },
+  {
+    "word": "relic",
+    "meaning": "an object surviving from an earlier time, especially one of historical interest.",
+    "local": "अवशेष, स्मारक चिह्न",
+    "sentences": "a museum of railway relics"
+  },
+  {
+    "word": "endurable",
+    "meaning": "able to be endured; bearable.",
+    "local": "सहने योग्य",
+    "sentences": "my journey was long but endurable"
+  },
+  {
+    "word": "perception",
+    "meaning": "the ability to see, hear, or become aware of something through the senses.",
+    "local": "अनुभूति, समझना",
+    "sentences": "the normal limits to human perception"
+  },
+  {
+    "word": "glorify",
+    "meaning": "praise and worship (God).",
+    "local": "गौरवान्वित करना,ની કીર્તિ",
+    "sentences": "music is used to glorify God"
+  },
+  {
+    "word": "accolades",
+    "meaning": "an award or privilege granted as a special honour or as an acknowledgement of merit.\nan expression of praise or admiration.",
+    "local": "પ્રશંસા",
+    "sentences": "the hotel has won numerous accolades"
+  },
+  {
+    "word": "eerily",
+    "meaning": "in a strange and frightening manner.",
+    "local": "भयपूर्वक, डरते हुए",
+    "sentences": "their footsteps echoed eerily"
+  },
+  {
+    "word": "agonize",
+    "meaning": "undergo great mental anguish through worrying about something.",
+    "local": "तड़पना, कष्ट देना",
+    "sentences": "I didnt agonize over the problem"
+  },
+  {
+    "word": "adulation",
+    "meaning": "excessive admiration or praise.",
+    "local": "चापलूसी, खुशामद",
+    "sentences": "he found it difficult to cope with the adulation of the fans"
+  },
+  {
+    "word": "commend",
+    "meaning": "praise formally or officially.",
+    "local": "सराहना, प्रशंसा करना",
+    "sentences": "he was commended by the judge for his courageous actions"
+  },
+  {
+    "word": "vigilant",
+    "meaning": "keeping careful watch for possible danger or difficulties.",
+    "local": "जागरूक",
+    "sentences": "the burglar was spotted by vigilant neighbours"
+  },
+  {
+    "word": "prominent",
+    "meaning": "important; famous.",
+    "local": "प्रमुख, प्रसिद्ध",
+    "sentences": "she was a prominent member of the city council"
+  },
+  {
+    "word": "obscure",
+    "meaning": "not discovered or known about; uncertain.",
+    "local": "अस्पष्ट, धुंधला",
+    "sentences": "his origins and parentage are obscure"
+  },
+  {
+    "word": "salvage",
+    "meaning": "rescue (a wrecked or disabled ship or its cargo) from loss at sea.",
+    "local": "क्षति से बचाना, नुक़सान होने से बचाना",
+    "sentences": "an emerald and gold cross was salvaged from the wreck"
+  },
+  {
+    "word": "misery",
+    "meaning": "a state or feeling of great physical or mental distress or discomfort.",
+    "local": "दुर्गति, मुसीबत",
+    "sentences": "a man who had brought her nothing but misery"
+  },
+  {
+    "word": "resent",
+    "meaning": "feel bitterness or indignation at (a circumstance, action, or person).",
+    "local": "નારાજ",
+    "sentences": "I still resented my ex for what she had done"
+  },
+  {
+    "word": "inanimate",
+    "meaning": "not alive.",
+    "local": "નિર્જીવ",
+    "sentences": "inanimate objects like stones"
+  },
+  {
+    "word": "ensue",
+    "meaning": "happen or occur afterwards or as a result.",
+    "local": "પરિણામ, આગળ ઉપર બનવું",
+    "sentences": "the difficulties which ensued from their commitment to Cuba"
+  },
+  {
+    "word": "hindrances",
+    "meaning": "a thing that provides resistance, delay, or obstruction to something or someone.",
+    "local": "અવરોધ",
+    "sentences": "a hindrance to the development process"
+  },
+  {
+    "word": "hinder",
+    "meaning": "make it difficult for (someone) to do something or for (something) to happen",
+    "local": "बाधा पहुंचाना",
+    "sentences": "language barriers hindered communication between scientists"
+  },
+  {
+    "word": "impediment",
+    "meaning": "a hindrance or obstruction in doing something.",
+    "local": "अवरोध, बाधा",
+    "sentences": "a serious impediment to scientific progress"
+  },
+  {
+    "word": "alleviate",
+    "meaning": "make (suffering, deficiency, or a problem) less severe.",
+    "local": "ઘટાડવું, હળવું કરવું",
+    "sentences": "he couldnt prevent her pain, only alleviate it"
+  },
+  {
+    "word": "outrage",
+    "meaning": "an extremely strong reaction of anger, shock, or indignation.",
+    "local": "આક્રોશ",
+    "sentences": "therefore deserve to be outraged"
+  },
+  {
+    "word": "amidst",
+    "meaning": "surrounded by; in the middle of.",
+    "local": "મધ્યે",
+    "sentences": "our dream home, set amid magnificent rolling countryside"
+  },
+  {
+    "word": "benign",
+    "meaning": "gentle and kindly.",
+    "local": "કૃપાળુ, દયાળુ",
+    "sentences": "his benign but firm manner"
+  },
+  {
+    "word": "tangible",
+    "meaning": "perceptible by touch.",
+    "local": "वास्तविक",
+    "sentences": "tangible form of memory"
+  },
+  {
+    "word": "preordained",
+    "meaning": "decide or determine (an outcome or course of action) beforehand.",
+    "local": "पूर्वनिर्धारित",
+    "sentences": "you might think the companys success was preordained"
+  },
+  {
+    "word": "susceptible",
+    "meaning": "likely or liable to be influenced or harmed by a particular thing.",
+    "local": "अतिसंवेदनशील",
+    "sentences": "patients with liver disease may be susceptible to infection"
+  },
+  {
+    "word": "concede",
+    "meaning": "admit or agree that something is true after first denying or resisting it.",
+    "local": "स्वीकार करना",
+    "sentences": "I had to concede that Id overreacted"
+  },
+  {
+    "word": "admonish",
+    "meaning": "warn or reprimand someone firmly.",
+    "local": "धिक्कारना, ताड़ना देना, ચેતવણી આપવી",
+    "sentences": "he admonished me for appearing at breakfast unshaven"
+  },
+  {
+    "word": "arbitrary",
+    "meaning": "based on random choice or personal whim, rather than any reason or system.",
+    "local": "मनमाना, एकपक्षीय",
+    "sentences": "an arbitrary decision"
+  },
+  {
+    "word": "jolted",
+    "meaning": "push or shake (someone or something) abruptly and roughly.\ngive a surprise or shock to (someone) in order to make them act or change.",
+    "local": "झटका लगा",
+    "sentences": "she tried to jolt him out of his depression"
+  },
+  {
+    "word": "beckon",
+    "meaning": "make a gesture with the hand, arm, or head to encourage or instruct someone to approach or follow.",
+    "local": "इशारा करना, संकेत से बुलाना",
+    "sentences": "Miranda beckoned to Adam"
+  },
+  {
+    "word": "replete",
+    "meaning": "filled or well-supplied with something.",
+    "local": "परिपूर्ण",
+    "sentences": "it was strange life repelte with fantastic experiences"
+  },
+  {
+    "word": "extricate",
+    "meaning": "free (someone or something) from a constraint or difficulty.",
+    "local": "मुक्त कर देना, छुडाना",
+    "sentences": "he was trying to extricate himself from official duties"
+  },
+  {
+    "word": "forgoes",
+    "meaning": "go without (something desirable).",
+    "local": "छोड़ देता है",
+    "sentences": "she wanted to forgo the tea and leave while they could"
+  },
+  {
+    "word": "porous",
+    "meaning": "(of a rock or other material) having minute interstices through which liquid or air may pass.",
+    "local": "छिद्रपूर्ण",
+    "sentences": "layers of porous limestones"
+  },
+  {
+    "word": "sulk",
+    "meaning": "be silent, morose, and bad-tempered out of annoyance or disappointment.",
+    "local": "उदास होना",
+    "sentences": "he was sulking over the break-up of his band"
+  },
+  {
+    "word": "forfeit",
+    "meaning": "lose or be deprived of (property or a right or privilege) as a penalty for wrongdoing.",
+    "local": "જપ્ત",
+    "sentences": "those unable to meet their taxes were liable to forfeit their estates"
+  },
+  {
+    "word": "condemn",
+    "meaning": "express complete disapproval of; censure.",
+    "local": "નિંદા, તિરસ્કાર કરવો",
+    "sentences": "most leaders roundly condemned the attack"
+  },
+  {
+    "word": "contemplate",
+    "meaning": "look thoughtfully for a long time at.\nthink deeply and at length.",
+    "local": "ચિંતન, ચિંતન મનન કરવું",
+    "sentences": "she couldnt even begin to contemplate the future"
+  },
+  {
+    "word": "exhilarating",
+    "meaning": "making one feel very happy, animated, or elated; thrilling.",
+    "local": "આનંદદાયક",
+    "sentences": "an exhilarating two-hour rafting experience"
+  },
+  {
+    "word": "abiguous",
+    "meaning": "having more than one possible meaning",
+    "local": "अस्पष्ट",
+    "sentences": "He gave me an ambiguous answer.\nThis agreement is very ambiguous and open to various interpretations."
+  },
+  {
+    "word": "equanimity",
+    "meaning": "a calm state of mind which means that you do not become angry or upset, especially in difficult situations",
+    "local": "समभाव",
+    "sentences": "She maintained her equanimity throughout her long ordeal.\nHe received the news with surprising equanimity.\nHe had a kind of gentleness and equanimity."
   }
 ]
