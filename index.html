@@ -193,7 +193,7 @@ function createCard(wordObj,index){
     <div class="details">
       <b>Meaning:</b> ${wordObj.meaning}<br>
       <b>Local:</b> ${wordObj.local}<br><br>
-      ${wordObj.sentences.map(s=>"- "+s).join("<br>")}
+      ${wordObj.sentences}<br>
     </div>
   `
   card.addEventListener("click",()=>{
