@@ -6,307 +6,251 @@
 <title>Word Swipe Cards</title>
 
 <style>
-:root{
-  --bg:#f2f2f2;
-  --card:#ffffff;
-  --text:#222;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  transition: background 0.3s;
 }
 
-body.dark{
-  --bg:#121212;
-  --card:#1e1e1e;
-  --text:#fff;
+body.dark {
+  background: #111;
 }
 
-*{box-sizing:border-box;}
-
-body{
-  margin:0;
-  background:var(--bg);
-  font-family:Arial, sans-serif;
-  color:var(--text);
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  height:100vh;
-  overflow:hidden;
+.container {
+  width: 100%;
+  max-width: 400px;
+  height: 90vh;
+  position: relative;
 }
 
-.top-bar{
-  width:100%;
-  padding:10px;
-  display:flex;
-  flex-wrap:wrap;
-  gap:6px;
-  justify-content:center;
-  background:#222;
-  color:white;
+.card {
+  width: 100%;
+  height: 75%;
+  border-radius: 20px;
+  padding: 25px;
+  box-sizing: border-box;
+  color: white;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  touch-action: none;
 }
 
-button{
-  padding:6px 12px;
-  border:none;
-  border-radius:20px;
-  cursor:pointer;
-  font-size:14px;
+.card.behind {
+  transform: scale(0.95) translateY(15px);
+  opacity: 0.8;
 }
 
-.progress{
-  font-weight:bold;
-  margin-right:10px;
+.word {
+  font-size: 34px;
+  font-weight: bold;
 }
 
-.card-container{
-  width:95%;
-  max-width:420px;
-  height:70vh;
-  margin-top:15px;
-  position:relative;
+.details {
+  margin-top: 20px;
+  display: none;
+  font-size: 16px;
 }
 
-.card{
-  width:100%;
-  height:100%;
-  border-radius:20px;
-  position:absolute;
-  background:var(--card);
-  box-shadow:0 10px 25px rgba(0,0,0,0.3);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding:20px;
-  text-align:center;
-  user-select:none;
-  transition:transform 0.3s ease, background 0.4s ease;
+.controls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
 }
 
-.word{
-  font-size:28px;
-  font-weight:bold;
+button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-.details{
-  display:none;
-  font-size:16px;
-  text-align:left;
-}
-
-.card.show .word{display:none;}
-.card.show .details{display:block;}
-
-.favorite{
-  position:absolute;
-  top:15px;
-  right:20px;
-  font-size:22px;
-  cursor:pointer;
-}
-.favorite.active{color:red;}
-
-@media(max-width:480px){
-  .word{font-size:24px;}
+body.dark button {
+  background: #333;
+  color: white;
 }
 </style>
 </head>
 
 <body>
+<div class="container">
+  <div class="card behind" id="nextCard"></div>
+  <div class="card" id="currentCard"></div>
 
-<div class="top-bar">
-  <div class="progress" id="progress">0/0</div>
-  <button onclick="toggleShuffle()">Shuffle</button>
-  <button onclick="toggleDark()">Dark</button>
-  <button onclick="toggleFavoritesView()">Favorites</button>
-  <button onclick="speakWord()">🔊</button>
-</div>
-
-<div class="card-container">
-  <div class="card" id="card">
-      <div class="favorite" id="favBtn">♡</div>
-      <div>
-        <div class="word" id="word"></div>
-        <div class="details" id="details"></div>
-      </div>
+  <div class="controls">
+    <button onclick="toggleFavorite()" id="favBtn">⭐</button>
+    <button onclick="toggleShuffle()">🔀</button>
+    <button onclick="toggleDark()">🌙</button>
+    <button onclick="speakWord()">🔊</button>
   </div>
 </div>
 
 <script>
+let words = [];
+let current = 0;
+let shuffled = false;
+let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+let darkMode = localStorage.getItem("darkMode") === "true";
 
-let words=[];
-let originalWords=[];
-let currentIndex=0;
-let shuffleMode=false;
-let showFavoritesOnly=false;
-let favorites=JSON.parse(localStorage.getItem("favorites")) || [];
+let startX = 0;
+let currentX = 0;
+let isDragging = false;
 
-const card=document.getElementById("card");
-const wordEl=document.getElementById("word");
-const detailsEl=document.getElementById("details");
-const progressEl=document.getElementById("progress");
-const favBtn=document.getElementById("favBtn");
+const currentCard = document.getElementById("currentCard");
+const nextCard = document.getElementById("nextCard");
+const favBtn = document.getElementById("favBtn");
 
-const colors=["#4CAF50","#2196F3","#FF5722","#9C27B0","#009688","#E91E63"];
-
-function randomColor(){
-  return colors[Math.floor(Math.random()*colors.length)];
+if(darkMode){
+  document.body.classList.add("dark");
 }
 
-function getActiveWords(){
-  if(showFavoritesOnly){
-    return words.filter(w=>favorites.includes(w.word));
-  }
-  return words;
+function randomColor() {
+  return `hsl(${Math.random()*360},70%,60%)`;
 }
 
-function loadWord(){
-  const activeWords=getActiveWords();
-  if(activeWords.length===0){
-    wordEl.textContent="No Favorites";
-    detailsEl.innerHTML="";
-    progressEl.textContent="0/0";
-    return;
-  }
+fetch("words.json")
+  .then(res => res.json())
+  .then(data => {
+    words = data;
+    renderCards();
+  });
 
-  if(currentIndex>=activeWords.length) currentIndex=0;
+function renderCards() {
+  const wordObj = words[current];
 
-  const data=activeWords[currentIndex];
-
-  wordEl.textContent=data.word;
-  detailsEl.innerHTML=`
-    <p><b>Meaning:</b> ${data.meaning}</p>
-    <p><b>Local:</b> ${data.localMeaning}</p>
-    <p><b>Sentences:</b></p>
-    <ul>${data.sentences.map(s=>`<li>${s}</li>`).join("")}</ul>
+  currentCard.style.background = randomColor();
+  currentCard.innerHTML = `
+    <div class="word">${wordObj.word}</div>
+    <div class="details">
+      <b>Meaning:</b> ${wordObj.meaning}<br>
+      <b>Local:</b> ${wordObj.local}<br><br>
+      ${wordObj.sentences.map(s => "- "+s).join("<br>")}
+    </div>
   `;
 
-  card.style.background=randomColor();
-  card.classList.remove("show");
+  const nextIndex = (current + 1) % words.length;
+  nextCard.style.background = randomColor();
+  nextCard.innerHTML = `<div class="word">${words[nextIndex].word}</div>`;
 
-  progressEl.textContent=`${currentIndex+1}/${activeWords.length}`;
-
-  favBtn.classList.toggle("active",favorites.includes(data.word));
+  updateFavoriteButton();
 }
 
-function nextWord(){
-  currentIndex++;
-  loadWord();
-}
-
-function prevWord(){
-  currentIndex--;
-  if(currentIndex<0) currentIndex=0;
-  loadWord();
-}
-
-function toggleShuffle(){
-  shuffleMode=!shuffleMode;
-  if(shuffleMode){
-    words=[...words].sort(()=>Math.random()-0.5);
-  }else{
-    words=[...originalWords];
+function updateFavoriteButton(){
+  if(favorites.includes(current)){
+    favBtn.textContent = "❤️";
+  } else {
+    favBtn.textContent = "⭐";
   }
-  currentIndex=0;
-  loadWord();
+}
+
+currentCard.addEventListener("click", (e) => {
+  if(isDragging) return;
+  const details = currentCard.querySelector(".details");
+  if(details)
+    details.style.display =
+      details.style.display === "block" ? "none" : "block";
+});
+
+function nextWord() {
+  current = shuffled
+    ? Math.floor(Math.random() * words.length)
+    : (current + 1) % words.length;
+  resetCard();
+  renderCards();
+}
+
+function toggleShuffle() {
+  shuffled = !shuffled;
+  alert("Shuffle: " + (shuffled ? "ON" : "OFF"));
+}
+
+function toggleFavorite(){
+  if(favorites.includes(current)){
+    favorites = favorites.filter(i => i !== current);
+  } else {
+    favorites.push(current);
+  }
+  localStorage.setItem("favorites", JSON.stringify(favorites));
+  updateFavoriteButton();
 }
 
 function toggleDark(){
   document.body.classList.toggle("dark");
+  localStorage.setItem("darkMode",
+    document.body.classList.contains("dark"));
 }
 
-function toggleFavoritesView(){
-  showFavoritesOnly=!showFavoritesOnly;
-  currentIndex=0;
-  loadWord();
-}
-
-function speakWord(){
-  const activeWords=getActiveWords();
-  if(activeWords.length===0) return;
-  const utter=new SpeechSynthesisUtterance(activeWords[currentIndex].word);
+function speakWord() {
+  const utter = new SpeechSynthesisUtterance(words[current].word);
   speechSynthesis.speak(utter);
 }
 
-favBtn.addEventListener("click",()=>{
-  const activeWords=getActiveWords();
-  if(activeWords.length===0) return;
-  const word=activeWords[currentIndex].word;
+/* 🔥 FIXED SWIPE (Touch + Mouse) */
 
-  if(favorites.includes(word)){
-    favorites=favorites.filter(w=>w!==word);
-  }else{
-    favorites.push(word);
-  }
+function startDrag(x){
+  startX = x;
+  isDragging = true;
+}
 
-  localStorage.setItem("favorites",JSON.stringify(favorites));
-  loadWord();
-});
-
-card.addEventListener("click",()=>{
-  card.classList.toggle("show");
-});
-
-/* Swipe */
-let startX=0;
-let currentX=0;
-let isDragging=false;
-
-card.addEventListener("pointerdown",(e)=>{
-  startX=e.clientX;
-  isDragging=true;
-});
-
-card.addEventListener("pointermove",(e)=>{
+function moveDrag(x){
   if(!isDragging) return;
-  currentX=e.clientX-startX;
-  card.style.transform=`translateX(${currentX}px) rotate(${currentX/15}deg)`;
-});
+  currentX = x - startX;
+  currentCard.style.transform =
+    `translateX(${currentX}px) rotate(${currentX/12}deg)`;
+}
 
-card.addEventListener("pointerup",()=>{
-  isDragging=false;
+function endDrag(){
+  if(!isDragging) return;
+  isDragging = false;
 
-  if(currentX>120){
-    swipeRight();
-  }else if(currentX<-120){
-    swipeLeft();
-  }else{
-    card.style.transform="";
+  if(Math.abs(currentX) > 120){
+    currentCard.style.opacity = "0";
+    currentCard.style.transform =
+      `translateX(${currentX > 0 ? 600 : -600}px) rotate(${currentX/8}deg)`;
+    setTimeout(nextWord, 300);
+  } else {
+    resetCard();
   }
-  currentX=0;
-});
-
-function swipeLeft(){
-  card.style.transform="translateX(-1000px) rotate(-20deg)";
-  setTimeout(()=>{
-    nextWord();
-    card.style.transition="none";
-    card.style.transform="translateX(1000px)";
-    setTimeout(()=>{
-      card.style.transition="transform 0.3s ease";
-      card.style.transform="";
-    },50);
-  },300);
 }
 
-function swipeRight(){
-  card.style.transform="translateX(1000px) rotate(20deg)";
-  setTimeout(()=>{
-    prevWord();
-    card.style.transition="none";
-    card.style.transform="translateX(-1000px)";
-    setTimeout(()=>{
-      card.style.transition="transform 0.3s ease";
-      card.style.transform="";
-    },50);
-  },300);
+function resetCard(){
+  currentCard.style.opacity = "1";
+  currentCard.style.transform = "translateX(0) rotate(0)";
+  currentX = 0;
 }
 
-/* Load JSON */
-fetch("words.json")
-.then(res=>res.json())
-.then(data=>{
-  words=data;
-  originalWords=[...data];
-  loadWord();
-});
+/* Touch */
+currentCard.addEventListener("touchstart", e =>
+  startDrag(e.touches[0].clientX));
+
+currentCard.addEventListener("touchmove", e =>
+  moveDrag(e.touches[0].clientX));
+
+currentCard.addEventListener("touchend", endDrag);
+
+/* Mouse (Desktop support) */
+currentCard.addEventListener("mousedown", e =>
+  startDrag(e.clientX));
+
+window.addEventListener("mousemove", e =>
+  moveDrag(e.clientX));
+
+window.addEventListener("mouseup", endDrag);
 
 </script>
 </body>
